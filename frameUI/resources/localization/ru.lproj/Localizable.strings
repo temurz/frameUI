@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Tedr
+
+  Created by GK on 11/03/25.
+  
+*/
+"Buy & sell goods with Tedr" = "Buy & sell\ngoods with\nTedr";
+"Already have an account? " = "Уже есть аккаунт?";
+"Sign in" = "Войти";
+"get_started" = "Начать";
+"Scan.QR.Title" = "Сканировать QR";
+"Send" = "Отправить";
+"Receive" = "Получить";
+"To" = "Кому";
+"Address" = "Адрес";
+"Network" = "Сеть";
+"Memo" = "Memo";
+"Fee" = "Комиссия";
+"TransactionDetails.AmountToBeSent" = "Сумма к отправке";
+"Transaction Details" = "Детали транзакции";
+"Total" = "Итого";
+"OK" = "OK";
+"Wallet" = "Кошелек";
+"Your wallet" = "Мой кошелек";
+"Balance" = "Баланс";
+"Show history" = "Показать историю";
+"Gallery" = "Галерея";
+"ALL NETWORKS" = "ВСЕ СЕТИ";
+"Search tokens and wallets" = "Поиск токенов и кошельков";
+"Search tokens" = "Поиск токенов";
+"Search" = "Поиск";
+"Amount" = "Сумма";
+"Max" = "Макс";
+"Send to" = "Отправить на";
+"Enter address" = "Введите адрес";
+"Paste" = "Вставить";
+"Address cannot be empty" = "Адрес не может быть пустым";
+"Available" = "Доступно";
+"Errors.InsufficientBalance" = "Недостаточно средств";
+"Errors.InvalidCode" = "Неверный код";
+"Errors.InvalidInput" = "Неверный ввод";
+"Errors.Invalid" = "Неверный";
+"Name" = "Имя";
+"FILTER" = "ФИЛЬТР";
+"24h change" = "Изменение за 24ч";
+"Price" = "Цена";
+"Default" = "Дефолт";
+"Hide 0 balance" = "Скрыть баланс 0";
+"SORT BY" = "СОРТИРОВАТЬ ПО";
+"Cancel" = "Отменить";
+"Copy" = "Копировать";
+"Pay me" = "Заплати мне";
+"Share" = "Поделиться";
+"Type message" = "Введите сообщение";
+"Test" = "Тест";

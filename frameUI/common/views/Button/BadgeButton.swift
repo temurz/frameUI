@@ -1,9 +1,10 @@
 //
 //  BadgeButton.swift
-//  frameUI
+//  Tedr
 //
-//  Created by Nuriddinov Subkhiddin on 20/07/25.
+//  Created by Temur on 20/07/2025.
 //
+
 
 import UIKit
 
@@ -65,16 +66,16 @@ class BadgeButton: UIButton {
     }
 
     private func setupButton() {
-        backgroundColor = UIColor(hex: "#FFFFFF").withAlphaComponent(0.2)
+        backgroundColor = Theme().buttonQuaternaryTransparentDefaultBg
         clipsToBounds = false
     }
 
     private func setupBadge() {
-        badgeContainer.backgroundColor = UIColor(hex: "#E74A54")
+        badgeContainer.backgroundColor = Theme().contentRed
         badgeContainer.clipsToBounds = true
 
-        badgeLabel.textColor = .white
-        badgeLabel.font = .systemFont(ofSize: 14, weight: .bold)
+        badgeLabel.textColor = Theme().contentWhite
+        badgeLabel.font = .onest(.bold, size: 14)
         badgeLabel.textAlignment = .center
         badgeContainer.addSubview(badgeLabel)
 

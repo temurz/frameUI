@@ -46,7 +46,7 @@ class ThemeChooserViewController: UIViewController {
     private let backgroundsLabel: UILabel = {
         let label = UILabel()
         label.text = "CHAT BACKGROUNDS"
-        label.textColor = UIColor(hex: "#A190CC", alpha: 1.0)
+        label.textColor = UIColor(hex: "#A190CC")
         label.font = .systemFont(ofSize: 13, weight: .semibold)
         return label
     }()
@@ -60,7 +60,7 @@ class ThemeChooserViewController: UIViewController {
     private let patternsLabel: UILabel = {
         let label = UILabel()
         label.text = "CHAT PATTERNS"
-        label.textColor = UIColor(hex: "#A190CC", alpha: 1.0)
+        label.textColor = UIColor(hex: "#A190CC")
         label.font = .systemFont(ofSize: 13, weight: .semibold)
         return label
     }()

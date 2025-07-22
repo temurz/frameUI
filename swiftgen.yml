@@ -1,0 +1,9 @@
+strings:
+  inputs:
+    - frameUI/resources/localization/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: frameUI/resources/GeneratedStrings.swift
+      params:
+        lookupFunction: switchLocalizationBundleDuringRuntime(forKey:table:fallbackValue:)
+        enumName: Strings

@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Tedr
+
+  Created by GK on 11/03/25.
+  
+*/
+"Buy & sell goods with Tedr" = "Buy & sell\ngoods with\nTedr";
+"Already have an account? " = "Already have an account? ";
+"Sign in" = "Sign in";
+"get_started" = "Get started";
+"Scan.QR.Title" = "Scan QR";
+"Send" = "Send";
+"Receive" = "Receive";
+"To" = "To";
+"Address" = "Address";
+"Network" = "Network";
+"Memo" = "Memo";
+"Fee" = "Fee";
+"TransactionDetails.AmountToBeSent" = "Amount to be sent";
+"Transaction Details" = "Transaction details";
+"Total" = "Total";
+"OK" = "OK";
+"Wallet" = "Wallet";
+"Your wallet" = "Your wallet";
+"Balance" = "Balance";
+"Show history" = "Show history";
+"Gallery" = "Gallery";
+"ALL NETWORKS" = "ALL NETWORKS";
+"Search tokens and wallets" = "Search tokens and wallets";
+"Search tokens" = "Search tokens";
+"Search" = "Search";
+"Amount" = "Amount";
+"Max" = "Max";
+"Send to" = "Send to";
+"Enter address" = "Enter address";
+"Paste" = "Paste";
+"Address cannot be empty" = "Address cannot be empty";
+"Available" = "Available";
+"Errors.InsufficientBalance" = "Insufficient balance";
+"Errors.InvalidCode" = "Invalid code";
+"Errors.InvalidInput" = "Invalid input";
+"Errors.Invalid" = "Invalid";
+"Name" = "Name";
+"FILTER" = "FILTER";
+"24h change" = "24h change";
+"Price" = "Price";
+"Default" = "Default";
+"Hide 0 balance" = "Hide 0 balance";
+"SORT BY" = "SORT BY";
+"Cancel" = "Cancel";
+"Copy" = "Copy";
+"Pay me" = "Pay me";
+"Share" = "Share";
+"Type message" = "Type message";
+"Test" = "Test";
