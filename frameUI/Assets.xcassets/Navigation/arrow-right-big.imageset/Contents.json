@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "arrow-right-big.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

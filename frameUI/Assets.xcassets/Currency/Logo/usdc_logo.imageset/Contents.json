@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "usdc_logo.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

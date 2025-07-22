@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "system_payme.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

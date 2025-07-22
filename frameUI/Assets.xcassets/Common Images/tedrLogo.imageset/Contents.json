@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tedr.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
