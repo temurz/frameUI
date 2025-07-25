@@ -17,6 +17,8 @@ extension PurpleTheme {
     var backgroundSecondaryColor: UIColor {
         return UIColor(hex: "#6443F3")
     }
+    
+    
     var bgSecondaryTransparent20: UIColor {
         return UIColor(hex: "#00000033")
     }
@@ -176,5 +178,9 @@ extension PurpleTheme {
     }
     var chatBubbleIncomingColor: UIColor {
         return UIColor(hex: "#120828")
+    }
+    
+    var primaryBlueDefaultBg : UIColor {
+        return UIColor(hex: "#3B72F2")
     }
 }

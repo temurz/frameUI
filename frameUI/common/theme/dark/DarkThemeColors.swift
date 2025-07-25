@@ -176,4 +176,9 @@ extension DarkTheme {
     var chatBubbleIncomingColor: UIColor {
         return UIColor(hex: "#293042")
     }
+    
+    var primaryBlueDefaultBg : UIColor {
+        return UIColor(hex: "#3B72F2")
+    }
+    
 }

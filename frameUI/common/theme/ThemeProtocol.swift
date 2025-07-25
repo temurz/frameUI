@@ -64,6 +64,7 @@ protocol ThemeProtocol: AnyObject {
     var bgBlackTransparent20: UIColor { get }
     var chatBubbleOutcomingColor: UIColor { get }
     var chatBubbleIncomingColor: UIColor { get }
+    var primaryBlueDefaultBg: UIColor { get }
     
     // MARK: - Images
     

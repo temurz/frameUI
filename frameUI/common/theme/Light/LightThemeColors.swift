@@ -17,6 +17,7 @@ extension LightTheme {
     var backgroundSecondaryColor: UIColor {
         return UIColor(hex: "#0B1327")
     }
+    
     var bgSecondaryTransparent20: UIColor {
         return UIColor(hex: "#00000033")
     }
@@ -176,4 +177,9 @@ extension LightTheme {
     var chatBubbleIncomingColor: UIColor {
         return UIColor(hex: "#293042")
     }
+    
+    var primaryBlueDefaultBg : UIColor {
+        return UIColor(hex: "#3B72F2")
+    }
+    
 }

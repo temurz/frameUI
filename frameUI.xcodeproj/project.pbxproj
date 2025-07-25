@@ -13,6 +13,7 @@
 		3D16473B2E200255004DE7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1647392E200255004DE7B7 /* LaunchScreen.storyboard */; };
 		3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */; };
 		3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */; };
+		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
 		B84750E22E2FB424004E9A7B /* GeneratedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */; };
 		B8C281E92E2FAAE700DE8C86 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C281E82E2FAAE700DE8C86 /* ThemeProtocol.swift */; };
 		B8C281EA2E2FAAE700DE8C86 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C281E62E2FAAE700DE8C86 /* Theme.swift */; };
@@ -63,6 +64,7 @@
 		3D16473C2E200255004DE7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChooserViewController.swift; sourceTree = "<group>"; };
 		3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
 		B8474EB02E2FB28F004E9A7B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedStrings.swift; sourceTree = "<group>"; };
 		B8C281E52E2FAAE700DE8C86 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				3D16472E2E200252004DE7B7 /* AppDelegate.swift */,
 				3D1647302E200252004DE7B7 /* SceneDelegate.swift */,
 				3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */,
+				3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */,
 				3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */,
 				3D1647372E200255004DE7B7 /* Assets.xcassets */,
 				3D1647392E200255004DE7B7 /* LaunchScreen.storyboard */,
@@ -449,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */,
+				3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */,
 				3D16472F2E200252004DE7B7 /* AppDelegate.swift in Sources */,
 				3D1647312E200252004DE7B7 /* SceneDelegate.swift in Sources */,
 				B8C281F12E2FAAF600DE8C86 /* DarkTheme.swift in Sources */,
