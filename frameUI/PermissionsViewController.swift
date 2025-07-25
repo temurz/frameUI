@@ -99,11 +99,11 @@ class PermissionsViewController: UIViewController {
     private func setupUI() {
         let backImage = UIImage(systemName: "chevron.left")?.withConfiguration(UIImage.SymbolConfiguration(weight: .semibold))
         backButton.setImage(backImage, for: .normal)
-        backButton.tintColor = .white
+        backButton.tintColor = theme.contentWhite
 
         titleLabel.text = "Permissions"
-        titleLabel.textColor = .white
-        titleLabel.font = .systemFont(ofSize: 18, weight: .bold)
+        titleLabel.textColor = theme.contentWhite
+        titleLabel.font = theme.onestFont(size: 18, weight: .bold)
         titleLabel.textAlignment = .center
         
         setupSectionTitle(groupPermissionsTitleLabel, text: "WHAT EVERYONE IN THE GROUP CAN DO")
@@ -140,13 +140,13 @@ class PermissionsViewController: UIViewController {
     private func setupSectionTitle(_ label: UILabel, text: String) {
         label.text = text
         label.textColor = theme.contentSecondary
-        label.font = .systemFont(ofSize: 13, weight: .regular)
+        label.font = theme.onestFont(size: 13, weight: .regular)
     }
 
     private func setupRow(label: UILabel, text: String, aSwitch: UISwitch, isOn: Bool) {
         label.text = text
-        label.textColor = .white
-        label.font = .systemFont(ofSize: 17, weight: .semibold)
+        label.textColor = theme.contentWhite
+        label.font = theme.onestFont(size: 16, weight: .semiBold)
         aSwitch.isOn = isOn
         aSwitch.onTintColor = UIColor(hex: "#4D78DE")
     }

@@ -11,6 +11,7 @@ protocol ThemeProtocol: AnyObject {
     var backgroundColor: UIColor { get }
     var backgroundPrimaryColor: UIColor { get }
     var backgroundSecondaryColor: UIColor { get }
+    var backgroundThirdColor: UIColor { get }
     var bgSecondaryTransparent20: UIColor { get }
     var backgroundTertiaryColor: UIColor { get }
     var darkTextColor: UIColor { get }
@@ -64,6 +65,7 @@ protocol ThemeProtocol: AnyObject {
     var bgBlackTransparent20: UIColor { get }
     var chatBubbleOutcomingColor: UIColor { get }
     var chatBubbleIncomingColor: UIColor { get }
+    var toggleTintColor: UIColor { get }
     
     // MARK: - Images
     
