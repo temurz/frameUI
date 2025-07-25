@@ -17,6 +17,11 @@ extension PurpleTheme {
     var backgroundSecondaryColor: UIColor {
         return UIColor(hex: "#6443F3")
     }
+    
+    var backgroundThirdColor: UIColor {
+        return UIColor(hex: "#522b6c")
+    }
+    
     var bgSecondaryTransparent20: UIColor {
         return UIColor(hex: "#00000033")
     }
