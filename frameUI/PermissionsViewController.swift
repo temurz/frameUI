@@ -132,7 +132,7 @@ class PermissionsViewController: UIViewController {
     }
 
     private func setupBackgroundView(_ backgroundView: UIView) {
-        backgroundView.backgroundColor = theme.backgroundThirdColor
+        backgroundView.backgroundColor = theme.bgWhiteTransparent10
         backgroundView.layer.cornerRadius = 16
         backgroundView.clipsToBounds = true
     }
@@ -146,9 +146,9 @@ class PermissionsViewController: UIViewController {
     private func setupRow(label: UILabel, text: String, aSwitch: UISwitch, isOn: Bool) {
         label.text = text
         label.textColor = theme.contentWhite
-        label.font = theme.onestFont(size: 16, weight: .semiBold)
+        label.font = theme.onestFont(size: 17, weight: .semiBold)
         aSwitch.isOn = isOn
-        aSwitch.onTintColor = UIColor(hex: "#4D78DE")
+        aSwitch.onTintColor = theme.primaryBlueDefaultBg
     }
 
     private func layoutRow(in container: UIView, y: inout CGFloat, height: CGFloat, label: UILabel, aSwitch: UISwitch) {

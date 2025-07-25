@@ -17,11 +17,6 @@ extension DarkTheme {
     var backgroundSecondaryColor: UIColor {
         return UIColor(hex: "#0B1327")
     }
-    
-    var backgroundThirdColor: UIColor {
-        return UIColor(hex: "#522b6c") // for section background
-    }
-    
     var bgSecondaryTransparent20: UIColor {
         return UIColor(hex: "#00000033")
     }
@@ -182,7 +177,8 @@ extension DarkTheme {
         return UIColor(hex: "#293042")
     }
     
-    var toggleTintColor : UIColor {
-        return UIColor(hex: "#4D78DE")
+    var primaryBlueDefaultBg : UIColor {
+        return UIColor(hex: "#3B72F2")
     }
+    
 }

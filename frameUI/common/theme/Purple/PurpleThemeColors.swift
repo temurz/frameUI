@@ -18,9 +18,6 @@ extension PurpleTheme {
         return UIColor(hex: "#6443F3")
     }
     
-    var backgroundThirdColor: UIColor {
-        return UIColor(hex: "#522b6c") // for section background
-    }
     
     var bgSecondaryTransparent20: UIColor {
         return UIColor(hex: "#00000033")
@@ -183,7 +180,7 @@ extension PurpleTheme {
         return UIColor(hex: "#120828")
     }
     
-    var toggleTintColor : UIColor {
-        return UIColor(hex: "#4D78DE")
+    var primaryBlueDefaultBg : UIColor {
+        return UIColor(hex: "#3B72F2")
     }
 }
