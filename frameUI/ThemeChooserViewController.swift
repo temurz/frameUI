@@ -105,15 +105,15 @@ class ThemeChooserViewController: UIViewController {
         contentView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         contentView.clipsToBounds = true
         view.addSubview(contentView)
-
-        contentView.addSubview(grabberView)
-        contentView.addSubview(titleLabel)
-        contentView.addSubview(segmentedControl)
-        contentView.addSubview(backgroundsLabel)
-        contentView.addSubview(backgroundsScrollView)
-        contentView.addSubview(patternsLabel)
-        contentView.addSubview(patternsScrollView)
-        contentView.addSubview(applyButton)
+        
+        [grabberView,
+         titleLabel,
+         segmentedControl,
+         backgroundsLabel,
+         backgroundsScrollView,
+         patternsLabel,
+         patternsScrollView,
+         applyButton].forEach { contentView.addSubview($0) }
     }
 
     private func setupGestures() {
@@ -138,8 +138,7 @@ class ThemeChooserViewController: UIViewController {
         grabberView.frame = CGRect(x: (contentWidth - 40) / 2, y: 8, width: 40, height: 5)
         titleLabel.frame = CGRect(x: padding, y: grabberView.frame.maxY + 15, width: contentWidth - (padding * 2), height: 24)
         segmentedControl.frame = CGRect(x: padding, y: titleLabel.frame.maxY + 20, width: contentWidth - (padding * 2), height: 44)
-        segmentedControl.layer.cornerRadius = segmentedControl.frame.height / 2
-        segmentedControl.layer.masksToBounds = true
+        segmentedControl.borderRadius = 22
         backgroundsLabel.frame = CGRect(x: padding, y: segmentedControl.frame.maxY + 30, width: contentWidth - (padding * 2), height: 16)
         let itemWidth: CGFloat = 78
         let itemHeight: CGFloat = 104

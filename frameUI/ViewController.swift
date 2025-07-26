@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .systemBlue
         button.layer.cornerRadius = 8
-        button.addTarget(self, action: #selector(showThemeChooserTapped), for: .touchUpInside)
         return button
     }()
     
@@ -29,6 +28,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(hex: "#3d115f")
         
+        showThemeButton.addTarget(self, action: #selector(showThemeChooserTapped), for: .touchUpInside)
         view.addSubview(showThemeButton)
         
         heartButton.setBadge(1)
