@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,7 +52,185 @@
 		B8C2823D2E2FAC8100DE8C86 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2823C2E2FAC8100DE8C86 /* Localization.swift */; };
 		B8C2823F2E2FACA100DE8C86 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2823E2E2FACA100DE8C86 /* ImageLoader.swift */; };
 		B8C282462E2FAF5F00DE8C86 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8C282452E2FAF5F00DE8C86 /* Localizable.strings */; };
-		B8C2824A2E2FAFEA00DE8C86 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C282492E2FAFEA00DE8C86 /* NetworkType.swift */; };
+		B8DBEDDD2E37EB85008E963F /* CurrencySelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED792E37EB85008E963F /* CurrencySelectionController.swift */; };
+		B8DBEDDE2E37EB85008E963F /* CreateAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA22E37EB85008E963F /* CreateAccountPresenter.swift */; };
+		B8DBEDDF2E37EB85008E963F /* ProfileMediaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED302E37EB85008E963F /* ProfileMediaRow.swift */; };
+		B8DBEDE02E37EB85008E963F /* RadioOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDC72E37EB85008E963F /* RadioOptionRowView.swift */; };
+		B8DBEDE12E37EB85008E963F /* ChatSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF92E37EB85008E963F /* ChatSearchResult.swift */; };
+		B8DBEDE22E37EB85008E963F /* FloatingTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED5E2E37EB85008E963F /* FloatingTabBarItem.swift */; };
+		B8DBEDE32E37EB85008E963F /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED072E37EB85008E963F /* ChatListCell.swift */; };
+		B8DBEDE42E37EB85008E963F /* ProfileLinkItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED3B2E37EB85008E963F /* ProfileLinkItemCell.swift */; };
+		B8DBEDE52E37EB85008E963F /* ChatNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF22E37EB85008E963F /* ChatNavigationView.swift */; };
+		B8DBEDE62E37EB85008E963F /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED582E37EB85008E963F /* SplashRouter.swift */; };
+		B8DBEDE72E37EB85008E963F /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED522E37EB85008E963F /* SplashInteractor.swift */; };
+		B8DBEDE82E37EB85008E963F /* ChatMessageInputPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECED2E37EB85008E963F /* ChatMessageInputPanelView.swift */; };
+		B8DBEDE92E37EB85008E963F /* OtpEmailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECB82E37EB85008E963F /* OtpEmailRouter.swift */; };
+		B8DBEDEA2E37EB85008E963F /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC92E37EB85008E963F /* PinCodeView.swift */; };
+		B8DBEDEB2E37EB85008E963F /* RegistrationTypeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECCC2E37EB85008E963F /* RegistrationTypeInteractor.swift */; };
+		B8DBEDEC2E37EB85008E963F /* CreateChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED292E37EB85008E963F /* CreateChatButton.swift */; };
+		B8DBEDED2E37EB85008E963F /* ChooseThemeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED142E37EB85008E963F /* ChooseThemeRouter.swift */; };
+		B8DBEDEE2E37EB85008E963F /* ChatProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE02E37EB85008E963F /* ChatProtocols.swift */; };
+		B8DBEDEF2E37EB85008E963F /* ChooseThemePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED102E37EB85008E963F /* ChooseThemePresenter.swift */; };
+		B8DBEDF02E37EB85008E963F /* WalletHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED882E37EB85008E963F /* WalletHomeHeaderView.swift */; };
+		B8DBEDF12E37EB85008E963F /* PinCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECBE2E37EB85008E963F /* PinCodeInteractor.swift */; };
+		B8DBEDF22E37EB85008E963F /* PinCodeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC22E37EB85008E963F /* PinCodeProtocols.swift */; };
+		B8DBEDF32E37EB85008E963F /* WalletSearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDA92E37EB85008E963F /* WalletSearchProtocols.swift */; };
+		B8DBEDF42E37EB85008E963F /* ShimmerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE62E37EB85008E963F /* ShimmerLoader.swift */; };
+		B8DBEDF52E37EB85008E963F /* WalletHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED7D2E37EB85008E963F /* WalletHomeInteractor.swift */; };
+		B8DBEDF62E37EB85008E963F /* ChatListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECFD2E37EB85008E963F /* ChatListInteractor.swift */; };
+		B8DBEDF72E37EB85008E963F /* TransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDBE2E37EB85008E963F /* TransactionDetails.swift */; };
+		B8DBEDF82E37EB85008E963F /* RegistrationTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECD62E37EB85008E963F /* RegistrationTypeViewController.swift */; };
+		B8DBEDF92E37EB85008E963F /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF12E37EB85008E963F /* ChatController.swift */; };
+		B8DBEDFA2E37EB85008E963F /* WalletAssetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED6B2E37EB85008E963F /* WalletAssetRow.swift */; };
+		B8DBEDFB2E37EB85008E963F /* WalletSendNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDBA2E37EB85008E963F /* WalletSendNavigationBar.swift */; };
+		B8DBEDFC2E37EB85008E963F /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECDE2E37EB85008E963F /* ChatPresenter.swift */; };
+		B8DBEDFD2E37EB85008E963F /* CreateAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA62E37EB85008E963F /* CreateAccountRouter.swift */; };
+		B8DBEDFE2E37EB85008E963F /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED632E37EB85008E963F /* FavoritesVC.swift */; };
+		B8DBEDFF2E37EB85008E963F /* PinCodeDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC82E37EB85008E963F /* PinCodeDotsView.swift */; };
+		B8DBEE002E37EB85008E963F /* AssetSearchFilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED6E2E37EB85008E963F /* AssetSearchFilterManager.swift */; };
+		B8DBEE012E37EB85008E963F /* CurrencySelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED772E37EB85008E963F /* CurrencySelectionRouter.swift */; };
+		B8DBEE022E37EB85008E963F /* CreateChatProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED232E37EB85008E963F /* CreateChatProtocols.swift */; };
+		B8DBEE032E37EB85008E963F /* WalletHomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED862E37EB85008E963F /* WalletHomeBannerView.swift */; };
+		B8DBEE042E37EB85008E963F /* ChooseThemeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED0E2E37EB85008E963F /* ChooseThemeInteractor.swift */; };
+		B8DBEE052E37EB85008E963F /* FloatingTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED662E37EB85008E963F /* FloatingTabBarView.swift */; };
+		B8DBEE062E37EB85008E963F /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA82E37EB85008E963F /* AuthTextField.swift */; };
+		B8DBEE072E37EB85008E963F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED672E37EB85008E963F /* MainTabBarController.swift */; };
+		B8DBEE082E37EB85008E963F /* PinCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC72E37EB85008E963F /* PinCodeController.swift */; };
+		B8DBEE092E37EB85008E963F /* ContactSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED1D2E37EB85008E963F /* ContactSection.swift */; };
+		B8DBEE0A2E37EB85008E963F /* ProfilePageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED4C2E37EB85008E963F /* ProfilePageControlView.swift */; };
+		B8DBEE0B2E37EB85008E963F /* ProfileMediaTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED4A2E37EB85008E963F /* ProfileMediaTypePicker.swift */; };
+		B8DBEE0C2E37EB85008E963F /* SplashEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED502E37EB85008E963F /* SplashEntity.swift */; };
+		B8DBEE0D2E37EB85008E963F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD92E37EB85008E963F /* AuthViewController.swift */; };
+		B8DBEE0E2E37EB85008E963F /* OtpEmailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECB62E37EB85008E963F /* OtpEmailProtocols.swift */; };
+		B8DBEE0F2E37EB85008E963F /* ChatTxInputPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECEE2E37EB85008E963F /* ChatTxInputPanelView.swift */; };
+		B8DBEE102E37EB85008E963F /* PinCodeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC42E37EB85008E963F /* PinCodeRouter.swift */; };
+		B8DBEE112E37EB85008E963F /* WalletSendRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDB72E37EB85008E963F /* WalletSendRouter.swift */; };
+		B8DBEE122E37EB85008E963F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED362E37EB85008E963F /* ProfileController.swift */; };
+		B8DBEE132E37EB85008E963F /* QRScannerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED9D2E37EB85008E963F /* QRScannerProtocols.swift */; };
+		B8DBEE142E37EB85008E963F /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED5A2E37EB85008E963F /* SplashController.swift */; };
+		B8DBEE152E37EB85008E963F /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD62E37EB85008E963F /* WelcomeRouter.swift */; };
+		B8DBEE162E37EB85008E963F /* ProfileMediaPagesCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED342E37EB85008E963F /* ProfileMediaPagesCarousel.swift */; };
+		B8DBEE172E37EB85008E963F /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD22E37EB85008E963F /* WelcomePresenter.swift */; };
+		B8DBEE182E37EB85008E963F /* QRScannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED9B2E37EB85008E963F /* QRScannerPresenter.swift */; };
+		B8DBEE192E37EB85008E963F /* OtpEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECBB2E37EB85008E963F /* OtpEmailView.swift */; };
+		B8DBEE1A2E37EB85008E963F /* PasswordRequirementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECAB2E37EB85008E963F /* PasswordRequirementView.swift */; };
+		B8DBEE1B2E37EB85008E963F /* WalletSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDAE2E37EB85008E963F /* WalletSearchView.swift */; };
+		B8DBEE1C2E37EB85008E963F /* WalletReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED962E37EB85008E963F /* WalletReceiveView.swift */; };
+		B8DBEE1D2E37EB85008E963F /* ChatMessageTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE92E37EB85008E963F /* ChatMessageTransactionView.swift */; };
+		B8DBEE1E2E37EB85008E963F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECFA2E37EB85008E963F /* Section.swift */; };
+		B8DBEE1F2E37EB85008E963F /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED562E37EB85008E963F /* SplashProtocols.swift */; };
+		B8DBEE202E37EB85008E963F /* ProfileMusicPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED3F2E37EB85008E963F /* ProfileMusicPageCell.swift */; };
+		B8DBEE212E37EB85008E963F /* WalletSendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDB92E37EB85008E963F /* WalletSendController.swift */; };
+		B8DBEE222E37EB85008E963F /* WalletHomeBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED852E37EB85008E963F /* WalletHomeBalanceView.swift */; };
+		B8DBEE232E37EB85008E963F /* WalletReceiveRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED932E37EB85008E963F /* WalletReceiveRouter.swift */; };
+		B8DBEE242E37EB85008E963F /* OtpEmailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECB22E37EB85008E963F /* OtpEmailInteractor.swift */; };
+		B8DBEE252E37EB85008E963F /* WalletSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDAD2E37EB85008E963F /* WalletSearchController.swift */; };
+		B8DBEE262E37EB85008E963F /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED282E37EB85008E963F /* ContactCell.swift */; };
+		B8DBEE272E37EB85008E963F /* ChatListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECFF2E37EB85008E963F /* ChatListPresenter.swift */; };
+		B8DBEE282E37EB85008E963F /* WalletRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED6C2E37EB85008E963F /* WalletRow.swift */; };
+		B8DBEE292E37EB85008E963F /* OptionsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDC62E37EB85008E963F /* OptionsSheetView.swift */; };
+		B8DBEE2A2E37EB85008E963F /* WelcomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD42E37EB85008E963F /* WelcomeProtocols.swift */; };
+		B8DBEE2B2E37EB85008E963F /* WalletHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED8A2E37EB85008E963F /* WalletHomeView.swift */; };
+		B8DBEE2C2E37EB85008E963F /* WalletSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDAB2E37EB85008E963F /* WalletSearchRouter.swift */; };
+		B8DBEE2D2E37EB85008E963F /* SearchResultPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF52E37EB85008E963F /* SearchResultPanel.swift */; };
+		B8DBEE2E2E37EB85008E963F /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDA22E37EB85008E963F /* QRScannerViewController.swift */; };
+		B8DBEE2F2E37EB85008E963F /* WalletSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDBB2E37EB85008E963F /* WalletSendView.swift */; };
+		B8DBEE302E37EB85008E963F /* CreateAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA02E37EB85008E963F /* CreateAccountInteractor.swift */; };
+		B8DBEE312E37EB85008E963F /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED322E37EB85008E963F /* ProfileInteractor.swift */; };
+		B8DBEE322E37EB85008E963F /* CurrencySelectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED752E37EB85008E963F /* CurrencySelectionProtocols.swift */; };
+		B8DBEE332E37EB85008E963F /* WalletHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED832E37EB85008E963F /* WalletHomeRouter.swift */; };
+		B8DBEE342E37EB85008E963F /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECFB2E37EB85008E963F /* Story.swift */; };
+		B8DBEE352E37EB85008E963F /* CircleRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDC92E37EB85008E963F /* CircleRadioButton.swift */; };
+		B8DBEE362E37EB85008E963F /* WalletSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDA52E37EB85008E963F /* WalletSearchInteractor.swift */; };
+		B8DBEE372E37EB85008E963F /* RegistrationTypeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECD02E37EB85008E963F /* RegistrationTypeProtocols.swift */; };
+		B8DBEE382E37EB85008E963F /* CurrencyFilterChipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDCA2E37EB85008E963F /* CurrencyFilterChipCell.swift */; };
+		B8DBEE392E37EB85008E963F /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED602E37EB85008E963F /* TabBarRouter.swift */; };
+		B8DBEE3A2E37EB85008E963F /* ProfileVoicePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED442E37EB85008E963F /* ProfileVoicePageCell.swift */; };
+		B8DBEE3B2E37EB85008E963F /* WalletSendInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDB12E37EB85008E963F /* WalletSendInteractor.swift */; };
+		B8DBEE3C2E37EB85008E963F /* ChatMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE82E37EB85008E963F /* ChatMessageTextView.swift */; };
+		B8DBEE3D2E37EB85008E963F /* ProfilePhotosPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED412E37EB85008E963F /* ProfilePhotosPageCell.swift */; };
+		B8DBEE3E2E37EB85008E963F /* CurrencySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED7A2E37EB85008E963F /* CurrencySelectionView.swift */; };
+		B8DBEE3F2E37EB85008E963F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED642E37EB85008E963F /* HomeVC.swift */; };
+		B8DBEE402E37EB85008E963F /* OtpEmailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECB42E37EB85008E963F /* OtpEmailPresenter.swift */; };
+		B8DBEE412E37EB85008E963F /* TransactionDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDC02E37EB85008E963F /* TransactionDetailsRouter.swift */; };
+		B8DBEE422E37EB85008E963F /* CreateChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED2B2E37EB85008E963F /* CreateChatViewController.swift */; };
+		B8DBEE432E37EB85008E963F /* ChatListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED032E37EB85008E963F /* ChatListRouter.swift */; };
+		B8DBEE442E37EB85008E963F /* AddMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED272E37EB85008E963F /* AddMembersView.swift */; };
+		B8DBEE452E37EB85008E963F /* CreateAccountProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA42E37EB85008E963F /* CreateAccountProtocols.swift */; };
+		B8DBEE462E37EB85008E963F /* CreateChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED212E37EB85008E963F /* CreateChatPresenter.swift */; };
+		B8DBEE472E37EB85008E963F /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDA12E37EB85008E963F /* QRScannerView.swift */; };
+		B8DBEE482E37EB85008E963F /* CurrencySelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED732E37EB85008E963F /* CurrencySelectionPresenter.swift */; };
+		B8DBEE492E37EB85008E963F /* ProfileNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED4B2E37EB85008E963F /* ProfileNavigationBar.swift */; };
+		B8DBEE4A2E37EB85008E963F /* ChatContentViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE42E37EB85008E963F /* ChatContentViewFactory.swift */; };
+		B8DBEE4B2E37EB85008E963F /* RegistrationTypePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECCE2E37EB85008E963F /* RegistrationTypePresenter.swift */; };
+		B8DBEE4C2E37EB85008E963F /* ProfileFilesPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED392E37EB85008E963F /* ProfileFilesPageCell.swift */; };
+		B8DBEE4D2E37EB85008E963F /* RegistrationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECD52E37EB85008E963F /* RegistrationTypeView.swift */; };
+		B8DBEE4E2E37EB85008E963F /* OtpEmailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECB02E37EB85008E963F /* OtpEmailEntity.swift */; };
+		B8DBEE4F2E37EB85008E963F /* ChatListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED012E37EB85008E963F /* ChatListProtocols.swift */; };
+		B8DBEE502E37EB85008E963F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF32E37EB85008E963F /* ChatView.swift */; };
+		B8DBEE512E37EB85008E963F /* ChooseThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED162E37EB85008E963F /* ChooseThemeViewController.swift */; };
+		B8DBEE522E37EB85008E963F /* ChatDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE52E37EB85008E963F /* ChatDataManager.swift */; };
+		B8DBEE532E37EB85008E963F /* ProfileLinksPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED3C2E37EB85008E963F /* ProfileLinksPageCell.swift */; };
+		B8DBEE542E37EB85008E963F /* CreateChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED1F2E37EB85008E963F /* CreateChatInteractor.swift */; };
+		B8DBEE552E37EB85008E963F /* ProfileDateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED492E37EB85008E963F /* ProfileDateHeaderView.swift */; };
+		B8DBEE562E37EB85008E963F /* ChooseThemeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED122E37EB85008E963F /* ChooseThemeProtocols.swift */; };
+		B8DBEE572E37EB85008E963F /* ThemeChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED172E37EB85008E963F /* ThemeChooserView.swift */; };
+		B8DBEE582E37EB85008E963F /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED6A2E37EB85008E963F /* NetworkType.swift */; };
+		B8DBEE592E37EB85008E963F /* WalletHomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED812E37EB85008E963F /* WalletHomeProtocols.swift */; };
+		B8DBEE5A2E37EB85008E963F /* ChatInputPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECEC2E37EB85008E963F /* ChatInputPanelView.swift */; };
+		B8DBEE5B2E37EB85008E963F /* ProfileMusicItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED3E2E37EB85008E963F /* ProfileMusicItemCell.swift */; };
+		B8DBEE5C2E37EB85008E963F /* ProfileFileItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED382E37EB85008E963F /* ProfileFileItemCell.swift */; };
+		B8DBEE5D2E37EB85008E963F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED542E37EB85008E963F /* SplashPresenter.swift */; };
+		B8DBEE5E2E37EB85008E963F /* PasswordRulesStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECAC2E37EB85008E963F /* PasswordRulesStackView.swift */; };
+		B8DBEE5F2E37EB85008E963F /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED2D2E37EB85008E963F /* NewMessageView.swift */; };
+		B8DBEE602E37EB85008E963F /* CreateGroupNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED2C2E37EB85008E963F /* CreateGroupNameView.swift */; };
+		B8DBEE612E37EB85008E963F /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD82E37EB85008E963F /* AuthView.swift */; };
+		B8DBEE622E37EB85008E963F /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF42E37EB85008E963F /* MessageProvider.swift */; };
+		B8DBEE632E37EB85008E963F /* ChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECE22E37EB85008E963F /* ChatRouter.swift */; };
+		B8DBEE642E37EB85008E963F /* PinCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC02E37EB85008E963F /* PinCodePresenter.swift */; };
+		B8DBEE652E37EB85008E963F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECAA2E37EB85008E963F /* CreateAccountViewController.swift */; };
+		B8DBEE662E37EB85008E963F /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECDC2E37EB85008E963F /* ChatInteractor.swift */; };
+		B8DBEE672E37EB85008E963F /* WalletSendProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDB52E37EB85008E963F /* WalletSendProtocols.swift */; };
+		B8DBEE682E37EB85008E963F /* CurrencySelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED712E37EB85008E963F /* CurrencySelectionInteractor.swift */; };
+		B8DBEE692E37EB85008E963F /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED0B2E37EB85008E963F /* ChatListView.swift */; };
+		B8DBEE6A2E37EB85008E963F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED622E37EB85008E963F /* ChatVC.swift */; };
+		B8DBEE6B2E37EB85008E963F /* ProfileStoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED4D2E37EB85008E963F /* ProfileStoriesView.swift */; };
+		B8DBEE6C2E37EB85008E963F /* QRScannerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED992E37EB85008E963F /* QRScannerInteractor.swift */; };
+		B8DBEE6D2E37EB85008E963F /* WalletAssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDCC2E37EB85008E963F /* WalletAssetCell.swift */; };
+		B8DBEE6E2E37EB85008E963F /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDD02E37EB85008E963F /* WelcomeInteractor.swift */; };
+		B8DBEE6F2E37EB85008E963F /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECA92E37EB85008E963F /* CreateAccountView.swift */; };
+		B8DBEE702E37EB85008E963F /* WalletSendPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDB32E37EB85008E963F /* WalletSendPresenter.swift */; };
+		B8DBEE712E37EB85008E963F /* ChatInputPanelActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECEB2E37EB85008E963F /* ChatInputPanelActionButton.swift */; };
+		B8DBEE722E37EB85008E963F /* RegistrationTypeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECD22E37EB85008E963F /* RegistrationTypeRouter.swift */; };
+		B8DBEE732E37EB85008E963F /* WalletReceivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED8F2E37EB85008E963F /* WalletReceivePresenter.swift */; };
+		B8DBEE742E37EB85008E963F /* WalletHomeTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED892E37EB85008E963F /* WalletHomeTableHeaderView.swift */; };
+		B8DBEE752E37EB85008E963F /* WalletHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED7F2E37EB85008E963F /* WalletHomePresenter.swift */; };
+		B8DBEE762E37EB85008E963F /* OtpEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECBA2E37EB85008E963F /* OtpEmailController.swift */; };
+		B8DBEE772E37EB85008E963F /* ProfileAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED472E37EB85008E963F /* ProfileAvatarView.swift */; };
+		B8DBEE782E37EB85008E963F /* GradientSelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECD42E37EB85008E963F /* GradientSelectableButton.swift */; };
+		B8DBEE792E37EB85008E963F /* CreateChatNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED2A2E37EB85008E963F /* CreateChatNavigationBar.swift */; };
+		B8DBEE7A2E37EB85008E963F /* ProfileVoiceItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED432E37EB85008E963F /* ProfileVoiceItemCell.swift */; };
+		B8DBEE7B2E37EB85008E963F /* CreateChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED252E37EB85008E963F /* CreateChatRouter.swift */; };
+		B8DBEE7C2E37EB85008E963F /* QRScannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED9F2E37EB85008E963F /* QRScannerRouter.swift */; };
+		B8DBEE7D2E37EB85008E963F /* ChatListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED082E37EB85008E963F /* ChatListController.swift */; };
+		B8DBEE7E2E37EB85008E963F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED1C2E37EB85008E963F /* Contact.swift */; };
+		B8DBEE7F2E37EB85008E963F /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED052E37EB85008E963F /* SearchResultCell.swift */; };
+		B8DBEE802E37EB85008E963F /* ChatListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED092E37EB85008E963F /* ChatListNavigationView.swift */; };
+		B8DBEE812E37EB85008E963F /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDCB2E37EB85008E963F /* TransparentButton.swift */; };
+		B8DBEE822E37EB85008E963F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED5B2E37EB85008E963F /* SplashView.swift */; };
+		B8DBEE832E37EB85008E963F /* WalletReceiveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED8D2E37EB85008E963F /* WalletReceiveInteractor.swift */; };
+		B8DBEE842E37EB85008E963F /* WalletHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED872E37EB85008E963F /* WalletHomeController.swift */; };
+		B8DBEE852E37EB85008E963F /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDC22E37EB85008E963F /* TransactionDetailsView.swift */; };
+		B8DBEE862E37EB85008E963F /* WalletReceiveProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED912E37EB85008E963F /* WalletReceiveProtocols.swift */; };
+		B8DBEE872E37EB85008E963F /* WalletReceiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED952E37EB85008E963F /* WalletReceiveController.swift */; };
+		B8DBEE882E37EB85008E963F /* WalletSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEDA72E37EB85008E963F /* WalletSearchPresenter.swift */; };
+		B8DBEE892E37EB85008E963F /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF02E37EB85008E963F /* ChatCell.swift */; };
+		B8DBEE8A2E37EB85008E963F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECF82E37EB85008E963F /* Chat.swift */; };
+		B8DBEE8B2E37EB85008E963F /* ChatListStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED0A2E37EB85008E963F /* ChatListStoryCell.swift */; };
+		B8DBEE8C2E37EB85008E963F /* ProfileContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBED482E37EB85008E963F /* ProfileContactView.swift */; };
+		B8DBEE8D2E37EB85008E963F /* ChatMessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECDA2E37EB85008E963F /* ChatMessageRow.swift */; };
+		B8DBEE8E2E37EB85008E963F /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBECC62E37EB85008E963F /* KeypadView.swift */; };
+		B8DBEE902E37EC27008E963F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DBEE8F2E37EC27008E963F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,8 +283,190 @@
 		B8C2823E2E2FACA100DE8C86 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		B8C282432E2FAF5F00DE8C86 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B8C282442E2FAF5F00DE8C86 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B8C282492E2FAFEA00DE8C86 /* NetworkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkType.swift; sourceTree = "<group>"; };
+		B8DBECA02E37EB85008E963F /* CreateAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountInteractor.swift; sourceTree = "<group>"; };
+		B8DBECA22E37EB85008E963F /* CreateAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPresenter.swift; sourceTree = "<group>"; };
+		B8DBECA42E37EB85008E963F /* CreateAccountProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountProtocols.swift; sourceTree = "<group>"; };
+		B8DBECA62E37EB85008E963F /* CreateAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRouter.swift; sourceTree = "<group>"; };
+		B8DBECA82E37EB85008E963F /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		B8DBECA92E37EB85008E963F /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		B8DBECAA2E37EB85008E963F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B8DBECAB2E37EB85008E963F /* PasswordRequirementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRequirementView.swift; sourceTree = "<group>"; };
+		B8DBECAC2E37EB85008E963F /* PasswordRulesStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRulesStackView.swift; sourceTree = "<group>"; };
+		B8DBECB02E37EB85008E963F /* OtpEmailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailEntity.swift; sourceTree = "<group>"; };
+		B8DBECB22E37EB85008E963F /* OtpEmailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailInteractor.swift; sourceTree = "<group>"; };
+		B8DBECB42E37EB85008E963F /* OtpEmailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailPresenter.swift; sourceTree = "<group>"; };
+		B8DBECB62E37EB85008E963F /* OtpEmailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailProtocols.swift; sourceTree = "<group>"; };
+		B8DBECB82E37EB85008E963F /* OtpEmailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailRouter.swift; sourceTree = "<group>"; };
+		B8DBECBA2E37EB85008E963F /* OtpEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailController.swift; sourceTree = "<group>"; };
+		B8DBECBB2E37EB85008E963F /* OtpEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEmailView.swift; sourceTree = "<group>"; };
+		B8DBECBE2E37EB85008E963F /* PinCodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeInteractor.swift; sourceTree = "<group>"; };
+		B8DBECC02E37EB85008E963F /* PinCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodePresenter.swift; sourceTree = "<group>"; };
+		B8DBECC22E37EB85008E963F /* PinCodeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeProtocols.swift; sourceTree = "<group>"; };
+		B8DBECC42E37EB85008E963F /* PinCodeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeRouter.swift; sourceTree = "<group>"; };
+		B8DBECC62E37EB85008E963F /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		B8DBECC72E37EB85008E963F /* PinCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeController.swift; sourceTree = "<group>"; };
+		B8DBECC82E37EB85008E963F /* PinCodeDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeDotsView.swift; sourceTree = "<group>"; };
+		B8DBECC92E37EB85008E963F /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
+		B8DBECCC2E37EB85008E963F /* RegistrationTypeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypeInteractor.swift; sourceTree = "<group>"; };
+		B8DBECCE2E37EB85008E963F /* RegistrationTypePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypePresenter.swift; sourceTree = "<group>"; };
+		B8DBECD02E37EB85008E963F /* RegistrationTypeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypeProtocols.swift; sourceTree = "<group>"; };
+		B8DBECD22E37EB85008E963F /* RegistrationTypeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypeRouter.swift; sourceTree = "<group>"; };
+		B8DBECD42E37EB85008E963F /* GradientSelectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSelectableButton.swift; sourceTree = "<group>"; };
+		B8DBECD52E37EB85008E963F /* RegistrationTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypeView.swift; sourceTree = "<group>"; };
+		B8DBECD62E37EB85008E963F /* RegistrationTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTypeViewController.swift; sourceTree = "<group>"; };
+		B8DBECDA2E37EB85008E963F /* ChatMessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageRow.swift; sourceTree = "<group>"; };
+		B8DBECDC2E37EB85008E963F /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
+		B8DBECDE2E37EB85008E963F /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		B8DBECE02E37EB85008E963F /* ChatProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProtocols.swift; sourceTree = "<group>"; };
+		B8DBECE22E37EB85008E963F /* ChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRouter.swift; sourceTree = "<group>"; };
+		B8DBECE42E37EB85008E963F /* ChatContentViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentViewFactory.swift; sourceTree = "<group>"; };
+		B8DBECE52E37EB85008E963F /* ChatDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDataManager.swift; sourceTree = "<group>"; };
+		B8DBECE62E37EB85008E963F /* ShimmerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerLoader.swift; sourceTree = "<group>"; };
+		B8DBECE82E37EB85008E963F /* ChatMessageTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageTextView.swift; sourceTree = "<group>"; };
+		B8DBECE92E37EB85008E963F /* ChatMessageTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageTransactionView.swift; sourceTree = "<group>"; };
+		B8DBECEB2E37EB85008E963F /* ChatInputPanelActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputPanelActionButton.swift; sourceTree = "<group>"; };
+		B8DBECEC2E37EB85008E963F /* ChatInputPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputPanelView.swift; sourceTree = "<group>"; };
+		B8DBECED2E37EB85008E963F /* ChatMessageInputPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageInputPanelView.swift; sourceTree = "<group>"; };
+		B8DBECEE2E37EB85008E963F /* ChatTxInputPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTxInputPanelView.swift; sourceTree = "<group>"; };
+		B8DBECF02E37EB85008E963F /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		B8DBECF12E37EB85008E963F /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		B8DBECF22E37EB85008E963F /* ChatNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNavigationView.swift; sourceTree = "<group>"; };
+		B8DBECF32E37EB85008E963F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B8DBECF42E37EB85008E963F /* MessageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageProvider.swift; sourceTree = "<group>"; };
+		B8DBECF52E37EB85008E963F /* SearchResultPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultPanel.swift; sourceTree = "<group>"; };
+		B8DBECF82E37EB85008E963F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		B8DBECF92E37EB85008E963F /* ChatSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSearchResult.swift; sourceTree = "<group>"; };
+		B8DBECFA2E37EB85008E963F /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		B8DBECFB2E37EB85008E963F /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		B8DBECFD2E37EB85008E963F /* ChatListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListInteractor.swift; sourceTree = "<group>"; };
+		B8DBECFF2E37EB85008E963F /* ChatListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListPresenter.swift; sourceTree = "<group>"; };
+		B8DBED012E37EB85008E963F /* ChatListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListProtocols.swift; sourceTree = "<group>"; };
+		B8DBED032E37EB85008E963F /* ChatListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListRouter.swift; sourceTree = "<group>"; };
+		B8DBED052E37EB85008E963F /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		B8DBED072E37EB85008E963F /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		B8DBED082E37EB85008E963F /* ChatListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListController.swift; sourceTree = "<group>"; };
+		B8DBED092E37EB85008E963F /* ChatListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListNavigationView.swift; sourceTree = "<group>"; };
+		B8DBED0A2E37EB85008E963F /* ChatListStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListStoryCell.swift; sourceTree = "<group>"; };
+		B8DBED0B2E37EB85008E963F /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		B8DBED0E2E37EB85008E963F /* ChooseThemeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeInteractor.swift; sourceTree = "<group>"; };
+		B8DBED102E37EB85008E963F /* ChooseThemePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemePresenter.swift; sourceTree = "<group>"; };
+		B8DBED122E37EB85008E963F /* ChooseThemeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeProtocols.swift; sourceTree = "<group>"; };
+		B8DBED142E37EB85008E963F /* ChooseThemeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeRouter.swift; sourceTree = "<group>"; };
+		B8DBED162E37EB85008E963F /* ChooseThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseThemeViewController.swift; sourceTree = "<group>"; };
+		B8DBED172E37EB85008E963F /* ThemeChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChooserView.swift; sourceTree = "<group>"; };
+		B8DBED1C2E37EB85008E963F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		B8DBED1D2E37EB85008E963F /* ContactSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSection.swift; sourceTree = "<group>"; };
+		B8DBED1F2E37EB85008E963F /* CreateChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatInteractor.swift; sourceTree = "<group>"; };
+		B8DBED212E37EB85008E963F /* CreateChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatPresenter.swift; sourceTree = "<group>"; };
+		B8DBED232E37EB85008E963F /* CreateChatProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatProtocols.swift; sourceTree = "<group>"; };
+		B8DBED252E37EB85008E963F /* CreateChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatRouter.swift; sourceTree = "<group>"; };
+		B8DBED272E37EB85008E963F /* AddMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMembersView.swift; sourceTree = "<group>"; };
+		B8DBED282E37EB85008E963F /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		B8DBED292E37EB85008E963F /* CreateChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatButton.swift; sourceTree = "<group>"; };
+		B8DBED2A2E37EB85008E963F /* CreateChatNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatNavigationBar.swift; sourceTree = "<group>"; };
+		B8DBED2B2E37EB85008E963F /* CreateChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatViewController.swift; sourceTree = "<group>"; };
+		B8DBED2C2E37EB85008E963F /* CreateGroupNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupNameView.swift; sourceTree = "<group>"; };
+		B8DBED2D2E37EB85008E963F /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		B8DBED302E37EB85008E963F /* ProfileMediaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMediaRow.swift; sourceTree = "<group>"; };
+		B8DBED322E37EB85008E963F /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		B8DBED342E37EB85008E963F /* ProfileMediaPagesCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMediaPagesCarousel.swift; sourceTree = "<group>"; };
+		B8DBED362E37EB85008E963F /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		B8DBED382E37EB85008E963F /* ProfileFileItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFileItemCell.swift; sourceTree = "<group>"; };
+		B8DBED392E37EB85008E963F /* ProfileFilesPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFilesPageCell.swift; sourceTree = "<group>"; };
+		B8DBED3B2E37EB85008E963F /* ProfileLinkItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLinkItemCell.swift; sourceTree = "<group>"; };
+		B8DBED3C2E37EB85008E963F /* ProfileLinksPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLinksPageCell.swift; sourceTree = "<group>"; };
+		B8DBED3E2E37EB85008E963F /* ProfileMusicItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMusicItemCell.swift; sourceTree = "<group>"; };
+		B8DBED3F2E37EB85008E963F /* ProfileMusicPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMusicPageCell.swift; sourceTree = "<group>"; };
+		B8DBED412E37EB85008E963F /* ProfilePhotosPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotosPageCell.swift; sourceTree = "<group>"; };
+		B8DBED432E37EB85008E963F /* ProfileVoiceItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVoiceItemCell.swift; sourceTree = "<group>"; };
+		B8DBED442E37EB85008E963F /* ProfileVoicePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVoicePageCell.swift; sourceTree = "<group>"; };
+		B8DBED472E37EB85008E963F /* ProfileAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAvatarView.swift; sourceTree = "<group>"; };
+		B8DBED482E37EB85008E963F /* ProfileContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContactView.swift; sourceTree = "<group>"; };
+		B8DBED492E37EB85008E963F /* ProfileDateHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDateHeaderView.swift; sourceTree = "<group>"; };
+		B8DBED4A2E37EB85008E963F /* ProfileMediaTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMediaTypePicker.swift; sourceTree = "<group>"; };
+		B8DBED4B2E37EB85008E963F /* ProfileNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationBar.swift; sourceTree = "<group>"; };
+		B8DBED4C2E37EB85008E963F /* ProfilePageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageControlView.swift; sourceTree = "<group>"; };
+		B8DBED4D2E37EB85008E963F /* ProfileStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStoriesView.swift; sourceTree = "<group>"; };
+		B8DBED502E37EB85008E963F /* SplashEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntity.swift; sourceTree = "<group>"; };
+		B8DBED522E37EB85008E963F /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		B8DBED542E37EB85008E963F /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		B8DBED562E37EB85008E963F /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		B8DBED582E37EB85008E963F /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		B8DBED5A2E37EB85008E963F /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		B8DBED5B2E37EB85008E963F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B8DBED5E2E37EB85008E963F /* FloatingTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarItem.swift; sourceTree = "<group>"; };
+		B8DBED602E37EB85008E963F /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		B8DBED622E37EB85008E963F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		B8DBED632E37EB85008E963F /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		B8DBED642E37EB85008E963F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B8DBED662E37EB85008E963F /* FloatingTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarView.swift; sourceTree = "<group>"; };
+		B8DBED672E37EB85008E963F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B8DBED6A2E37EB85008E963F /* NetworkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkType.swift; sourceTree = "<group>"; };
+		B8DBED6B2E37EB85008E963F /* WalletAssetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAssetRow.swift; sourceTree = "<group>"; };
+		B8DBED6C2E37EB85008E963F /* WalletRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRow.swift; sourceTree = "<group>"; };
+		B8DBED6E2E37EB85008E963F /* AssetSearchFilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSearchFilterManager.swift; sourceTree = "<group>"; };
+		B8DBED712E37EB85008E963F /* CurrencySelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionInteractor.swift; sourceTree = "<group>"; };
+		B8DBED732E37EB85008E963F /* CurrencySelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionPresenter.swift; sourceTree = "<group>"; };
+		B8DBED752E37EB85008E963F /* CurrencySelectionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionProtocols.swift; sourceTree = "<group>"; };
+		B8DBED772E37EB85008E963F /* CurrencySelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionRouter.swift; sourceTree = "<group>"; };
+		B8DBED792E37EB85008E963F /* CurrencySelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionController.swift; sourceTree = "<group>"; };
+		B8DBED7A2E37EB85008E963F /* CurrencySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionView.swift; sourceTree = "<group>"; };
+		B8DBED7D2E37EB85008E963F /* WalletHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeInteractor.swift; sourceTree = "<group>"; };
+		B8DBED7F2E37EB85008E963F /* WalletHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomePresenter.swift; sourceTree = "<group>"; };
+		B8DBED812E37EB85008E963F /* WalletHomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeProtocols.swift; sourceTree = "<group>"; };
+		B8DBED832E37EB85008E963F /* WalletHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeRouter.swift; sourceTree = "<group>"; };
+		B8DBED852E37EB85008E963F /* WalletHomeBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeBalanceView.swift; sourceTree = "<group>"; };
+		B8DBED862E37EB85008E963F /* WalletHomeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeBannerView.swift; sourceTree = "<group>"; };
+		B8DBED872E37EB85008E963F /* WalletHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeController.swift; sourceTree = "<group>"; };
+		B8DBED882E37EB85008E963F /* WalletHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeHeaderView.swift; sourceTree = "<group>"; };
+		B8DBED892E37EB85008E963F /* WalletHomeTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeTableHeaderView.swift; sourceTree = "<group>"; };
+		B8DBED8A2E37EB85008E963F /* WalletHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeView.swift; sourceTree = "<group>"; };
+		B8DBED8D2E37EB85008E963F /* WalletReceiveInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceiveInteractor.swift; sourceTree = "<group>"; };
+		B8DBED8F2E37EB85008E963F /* WalletReceivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceivePresenter.swift; sourceTree = "<group>"; };
+		B8DBED912E37EB85008E963F /* WalletReceiveProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceiveProtocols.swift; sourceTree = "<group>"; };
+		B8DBED932E37EB85008E963F /* WalletReceiveRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceiveRouter.swift; sourceTree = "<group>"; };
+		B8DBED952E37EB85008E963F /* WalletReceiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceiveController.swift; sourceTree = "<group>"; };
+		B8DBED962E37EB85008E963F /* WalletReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletReceiveView.swift; sourceTree = "<group>"; };
+		B8DBED992E37EB85008E963F /* QRScannerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerInteractor.swift; sourceTree = "<group>"; };
+		B8DBED9B2E37EB85008E963F /* QRScannerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerPresenter.swift; sourceTree = "<group>"; };
+		B8DBED9D2E37EB85008E963F /* QRScannerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerProtocols.swift; sourceTree = "<group>"; };
+		B8DBED9F2E37EB85008E963F /* QRScannerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerRouter.swift; sourceTree = "<group>"; };
+		B8DBEDA12E37EB85008E963F /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		B8DBEDA22E37EB85008E963F /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		B8DBEDA52E37EB85008E963F /* WalletSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchInteractor.swift; sourceTree = "<group>"; };
+		B8DBEDA72E37EB85008E963F /* WalletSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchPresenter.swift; sourceTree = "<group>"; };
+		B8DBEDA92E37EB85008E963F /* WalletSearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchProtocols.swift; sourceTree = "<group>"; };
+		B8DBEDAB2E37EB85008E963F /* WalletSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchRouter.swift; sourceTree = "<group>"; };
+		B8DBEDAD2E37EB85008E963F /* WalletSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchController.swift; sourceTree = "<group>"; };
+		B8DBEDAE2E37EB85008E963F /* WalletSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSearchView.swift; sourceTree = "<group>"; };
+		B8DBEDB12E37EB85008E963F /* WalletSendInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendInteractor.swift; sourceTree = "<group>"; };
+		B8DBEDB32E37EB85008E963F /* WalletSendPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendPresenter.swift; sourceTree = "<group>"; };
+		B8DBEDB52E37EB85008E963F /* WalletSendProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendProtocols.swift; sourceTree = "<group>"; };
+		B8DBEDB72E37EB85008E963F /* WalletSendRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendRouter.swift; sourceTree = "<group>"; };
+		B8DBEDB92E37EB85008E963F /* WalletSendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendController.swift; sourceTree = "<group>"; };
+		B8DBEDBA2E37EB85008E963F /* WalletSendNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendNavigationBar.swift; sourceTree = "<group>"; };
+		B8DBEDBB2E37EB85008E963F /* WalletSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSendView.swift; sourceTree = "<group>"; };
+		B8DBEDBE2E37EB85008E963F /* TransactionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetails.swift; sourceTree = "<group>"; };
+		B8DBEDC02E37EB85008E963F /* TransactionDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsRouter.swift; sourceTree = "<group>"; };
+		B8DBEDC22E37EB85008E963F /* TransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsView.swift; sourceTree = "<group>"; };
+		B8DBEDC62E37EB85008E963F /* OptionsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsSheetView.swift; sourceTree = "<group>"; };
+		B8DBEDC72E37EB85008E963F /* RadioOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioOptionRowView.swift; sourceTree = "<group>"; };
+		B8DBEDC92E37EB85008E963F /* CircleRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRadioButton.swift; sourceTree = "<group>"; };
+		B8DBEDCA2E37EB85008E963F /* CurrencyFilterChipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFilterChipCell.swift; sourceTree = "<group>"; };
+		B8DBEDCB2E37EB85008E963F /* TransparentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentButton.swift; sourceTree = "<group>"; };
+		B8DBEDCC2E37EB85008E963F /* WalletAssetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAssetCell.swift; sourceTree = "<group>"; };
+		B8DBEDD02E37EB85008E963F /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		B8DBEDD22E37EB85008E963F /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		B8DBEDD42E37EB85008E963F /* WelcomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProtocols.swift; sourceTree = "<group>"; };
+		B8DBEDD62E37EB85008E963F /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		B8DBEDD82E37EB85008E963F /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		B8DBEDD92E37EB85008E963F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		B8DBEE8F2E37EC27008E963F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B8DBEE9B2E37ECA8008E963F /* fonts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = fonts; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3D1647282E200252004DE7B7 /* Frameworks */ = {
@@ -139,7 +499,7 @@
 		3D16472D2E200252004DE7B7 /* frameUI */ = {
 			isa = PBXGroup;
 			children = (
-				B8C282482E2FAFE200DE8C86 /* modules */,
+				B8DBEDDC2E37EB85008E963F /* modules */,
 				B8C282412E2FAF5500DE8C86 /* resources */,
 				B8C2823B2E2FAC7D00DE8C86 /* common */,
 				3D16472E2E200252004DE7B7 /* AppDelegate.swift */,
@@ -336,6 +696,8 @@
 		B8C282412E2FAF5500DE8C86 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B8DBEE9B2E37ECA8008E963F /* fonts */,
+				B8DBEE8F2E37EC27008E963F /* Constants.swift */,
 				B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */,
 				B8C282422E2FAF5C00DE8C86 /* localization */,
 			);
@@ -350,10 +712,1291 @@
 			path = localization;
 			sourceTree = "<group>";
 		};
-		B8C282482E2FAFE200DE8C86 /* modules */ = {
+		B8DBECA12E37EB85008E963F /* interactor */ = {
 			isa = PBXGroup;
 			children = (
-				B8C282492E2FAFEA00DE8C86 /* NetworkType.swift */,
+				B8DBECA02E37EB85008E963F /* CreateAccountInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBECA32E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECA22E37EB85008E963F /* CreateAccountPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBECA52E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECA42E37EB85008E963F /* CreateAccountProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBECA72E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECA62E37EB85008E963F /* CreateAccountRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBECAD2E37EB85008E963F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECA82E37EB85008E963F /* AuthTextField.swift */,
+				B8DBECA92E37EB85008E963F /* CreateAccountView.swift */,
+				B8DBECAA2E37EB85008E963F /* CreateAccountViewController.swift */,
+				B8DBECAB2E37EB85008E963F /* PasswordRequirementView.swift */,
+				B8DBECAC2E37EB85008E963F /* PasswordRulesStackView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B8DBECAE2E37EB85008E963F /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECA12E37EB85008E963F /* interactor */,
+				B8DBECA32E37EB85008E963F /* presenter */,
+				B8DBECA52E37EB85008E963F /* protocols */,
+				B8DBECA72E37EB85008E963F /* router */,
+				B8DBECAD2E37EB85008E963F /* views */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		B8DBECAF2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBECB12E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB02E37EB85008E963F /* OtpEmailEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBECB32E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB22E37EB85008E963F /* OtpEmailInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBECB52E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB42E37EB85008E963F /* OtpEmailPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBECB72E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB62E37EB85008E963F /* OtpEmailProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBECB92E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB82E37EB85008E963F /* OtpEmailRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBECBC2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECBA2E37EB85008E963F /* OtpEmailController.swift */,
+				B8DBECBB2E37EB85008E963F /* OtpEmailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBECBD2E37EB85008E963F /* Otp */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECB12E37EB85008E963F /* entity */,
+				B8DBECB32E37EB85008E963F /* interactor */,
+				B8DBECB52E37EB85008E963F /* presenter */,
+				B8DBECB72E37EB85008E963F /* protocols */,
+				B8DBECB92E37EB85008E963F /* router */,
+				B8DBECBC2E37EB85008E963F /* view */,
+			);
+			path = Otp;
+			sourceTree = "<group>";
+		};
+		B8DBECBF2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECBE2E37EB85008E963F /* PinCodeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBECC12E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECC02E37EB85008E963F /* PinCodePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBECC32E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECC22E37EB85008E963F /* PinCodeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBECC52E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECC42E37EB85008E963F /* PinCodeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBECCA2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECC62E37EB85008E963F /* KeypadView.swift */,
+				B8DBECC72E37EB85008E963F /* PinCodeController.swift */,
+				B8DBECC82E37EB85008E963F /* PinCodeDotsView.swift */,
+				B8DBECC92E37EB85008E963F /* PinCodeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBECCB2E37EB85008E963F /* PIN-code */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECBF2E37EB85008E963F /* interactor */,
+				B8DBECC12E37EB85008E963F /* presenter */,
+				B8DBECC32E37EB85008E963F /* protocols */,
+				B8DBECC52E37EB85008E963F /* router */,
+				B8DBECCA2E37EB85008E963F /* view */,
+			);
+			path = "PIN-code";
+			sourceTree = "<group>";
+		};
+		B8DBECCD2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECCC2E37EB85008E963F /* RegistrationTypeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBECCF2E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECCE2E37EB85008E963F /* RegistrationTypePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBECD12E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECD02E37EB85008E963F /* RegistrationTypeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBECD32E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECD22E37EB85008E963F /* RegistrationTypeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBECD72E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECD42E37EB85008E963F /* GradientSelectableButton.swift */,
+				B8DBECD52E37EB85008E963F /* RegistrationTypeView.swift */,
+				B8DBECD62E37EB85008E963F /* RegistrationTypeViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBECD82E37EB85008E963F /* RegistrationType */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECCD2E37EB85008E963F /* interactor */,
+				B8DBECCF2E37EB85008E963F /* presenter */,
+				B8DBECD12E37EB85008E963F /* protocols */,
+				B8DBECD32E37EB85008E963F /* router */,
+				B8DBECD72E37EB85008E963F /* view */,
+			);
+			path = RegistrationType;
+			sourceTree = "<group>";
+		};
+		B8DBECD92E37EB85008E963F /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECAE2E37EB85008E963F /* CreateAccount */,
+				B8DBECAF2E37EB85008E963F /* entity */,
+				B8DBECBD2E37EB85008E963F /* Otp */,
+				B8DBECCB2E37EB85008E963F /* PIN-code */,
+				B8DBECD82E37EB85008E963F /* RegistrationType */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		B8DBECDB2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECDA2E37EB85008E963F /* ChatMessageRow.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBECDD2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECDC2E37EB85008E963F /* ChatInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBECDF2E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECDE2E37EB85008E963F /* ChatPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBECE12E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECE02E37EB85008E963F /* ChatProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBECE32E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECE22E37EB85008E963F /* ChatRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBECE72E37EB85008E963F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECE42E37EB85008E963F /* ChatContentViewFactory.swift */,
+				B8DBECE52E37EB85008E963F /* ChatDataManager.swift */,
+				B8DBECE62E37EB85008E963F /* ShimmerLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B8DBECEA2E37EB85008E963F /* CellContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECE82E37EB85008E963F /* ChatMessageTextView.swift */,
+				B8DBECE92E37EB85008E963F /* ChatMessageTransactionView.swift */,
+			);
+			path = CellContentViews;
+			sourceTree = "<group>";
+		};
+		B8DBECEF2E37EB85008E963F /* InputPanel */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECEB2E37EB85008E963F /* ChatInputPanelActionButton.swift */,
+				B8DBECEC2E37EB85008E963F /* ChatInputPanelView.swift */,
+				B8DBECED2E37EB85008E963F /* ChatMessageInputPanelView.swift */,
+				B8DBECEE2E37EB85008E963F /* ChatTxInputPanelView.swift */,
+			);
+			path = InputPanel;
+			sourceTree = "<group>";
+		};
+		B8DBECF62E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECEA2E37EB85008E963F /* CellContentViews */,
+				B8DBECEF2E37EB85008E963F /* InputPanel */,
+				B8DBECF02E37EB85008E963F /* ChatCell.swift */,
+				B8DBECF12E37EB85008E963F /* ChatController.swift */,
+				B8DBECF22E37EB85008E963F /* ChatNavigationView.swift */,
+				B8DBECF32E37EB85008E963F /* ChatView.swift */,
+				B8DBECF42E37EB85008E963F /* MessageProvider.swift */,
+				B8DBECF52E37EB85008E963F /* SearchResultPanel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBECF72E37EB85008E963F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECDB2E37EB85008E963F /* entity */,
+				B8DBECDD2E37EB85008E963F /* interactor */,
+				B8DBECDF2E37EB85008E963F /* presenter */,
+				B8DBECE12E37EB85008E963F /* protocols */,
+				B8DBECE32E37EB85008E963F /* router */,
+				B8DBECE72E37EB85008E963F /* Utilities */,
+				B8DBECF62E37EB85008E963F /* view */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		B8DBECFC2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECF82E37EB85008E963F /* Chat.swift */,
+				B8DBECF92E37EB85008E963F /* ChatSearchResult.swift */,
+				B8DBECFA2E37EB85008E963F /* Section.swift */,
+				B8DBECFB2E37EB85008E963F /* Story.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBECFE2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECFD2E37EB85008E963F /* ChatListInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED002E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECFF2E37EB85008E963F /* ChatListPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED022E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED012E37EB85008E963F /* ChatListProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED042E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED032E37EB85008E963F /* ChatListRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED062E37EB85008E963F /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED052E37EB85008E963F /* SearchResultCell.swift */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		B8DBED0C2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED062E37EB85008E963F /* SearchResult */,
+				B8DBED072E37EB85008E963F /* ChatListCell.swift */,
+				B8DBED082E37EB85008E963F /* ChatListController.swift */,
+				B8DBED092E37EB85008E963F /* ChatListNavigationView.swift */,
+				B8DBED0A2E37EB85008E963F /* ChatListStoryCell.swift */,
+				B8DBED0B2E37EB85008E963F /* ChatListView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED0D2E37EB85008E963F /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECFC2E37EB85008E963F /* entity */,
+				B8DBECFE2E37EB85008E963F /* interactor */,
+				B8DBED002E37EB85008E963F /* presenter */,
+				B8DBED022E37EB85008E963F /* protocols */,
+				B8DBED042E37EB85008E963F /* router */,
+				B8DBED0C2E37EB85008E963F /* view */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		B8DBED0F2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED0E2E37EB85008E963F /* ChooseThemeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED112E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED102E37EB85008E963F /* ChooseThemePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED132E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED122E37EB85008E963F /* ChooseThemeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED152E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED142E37EB85008E963F /* ChooseThemeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED182E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED162E37EB85008E963F /* ChooseThemeViewController.swift */,
+				B8DBED172E37EB85008E963F /* ThemeChooserView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED192E37EB85008E963F /* ChooseTheme */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED0F2E37EB85008E963F /* interactor */,
+				B8DBED112E37EB85008E963F /* presenter */,
+				B8DBED132E37EB85008E963F /* protocols */,
+				B8DBED152E37EB85008E963F /* router */,
+				B8DBED182E37EB85008E963F /* view */,
+			);
+			path = ChooseTheme;
+			sourceTree = "<group>";
+		};
+		B8DBED1A2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBED1B2E37EB85008E963F /* createAccount */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED1A2E37EB85008E963F /* entity */,
+			);
+			path = createAccount;
+			sourceTree = "<group>";
+		};
+		B8DBED1E2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED1C2E37EB85008E963F /* Contact.swift */,
+				B8DBED1D2E37EB85008E963F /* ContactSection.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBED202E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED1F2E37EB85008E963F /* CreateChatInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED222E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED212E37EB85008E963F /* CreateChatPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED242E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED232E37EB85008E963F /* CreateChatProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED262E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED252E37EB85008E963F /* CreateChatRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED2E2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED272E37EB85008E963F /* AddMembersView.swift */,
+				B8DBED282E37EB85008E963F /* ContactCell.swift */,
+				B8DBED292E37EB85008E963F /* CreateChatButton.swift */,
+				B8DBED2A2E37EB85008E963F /* CreateChatNavigationBar.swift */,
+				B8DBED2B2E37EB85008E963F /* CreateChatViewController.swift */,
+				B8DBED2C2E37EB85008E963F /* CreateGroupNameView.swift */,
+				B8DBED2D2E37EB85008E963F /* NewMessageView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED2F2E37EB85008E963F /* CreateChat */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED1E2E37EB85008E963F /* entity */,
+				B8DBED202E37EB85008E963F /* interactor */,
+				B8DBED222E37EB85008E963F /* presenter */,
+				B8DBED242E37EB85008E963F /* protocols */,
+				B8DBED262E37EB85008E963F /* router */,
+				B8DBED2E2E37EB85008E963F /* view */,
+			);
+			path = CreateChat;
+			sourceTree = "<group>";
+		};
+		B8DBED312E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED302E37EB85008E963F /* ProfileMediaRow.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBED332E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED322E37EB85008E963F /* ProfileInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED352E37EB85008E963F /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED342E37EB85008E963F /* ProfileMediaPagesCarousel.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		B8DBED372E37EB85008E963F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED362E37EB85008E963F /* ProfileController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B8DBED3A2E37EB85008E963F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED382E37EB85008E963F /* ProfileFileItemCell.swift */,
+				B8DBED392E37EB85008E963F /* ProfileFilesPageCell.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		B8DBED3D2E37EB85008E963F /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED3B2E37EB85008E963F /* ProfileLinkItemCell.swift */,
+				B8DBED3C2E37EB85008E963F /* ProfileLinksPageCell.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		B8DBED402E37EB85008E963F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED3E2E37EB85008E963F /* ProfileMusicItemCell.swift */,
+				B8DBED3F2E37EB85008E963F /* ProfileMusicPageCell.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		B8DBED422E37EB85008E963F /* PhotosOrVideos */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED412E37EB85008E963F /* ProfilePhotosPageCell.swift */,
+			);
+			path = PhotosOrVideos;
+			sourceTree = "<group>";
+		};
+		B8DBED452E37EB85008E963F /* Voices */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED432E37EB85008E963F /* ProfileVoiceItemCell.swift */,
+				B8DBED442E37EB85008E963F /* ProfileVoicePageCell.swift */,
+			);
+			path = Voices;
+			sourceTree = "<group>";
+		};
+		B8DBED462E37EB85008E963F /* media_pages */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED3A2E37EB85008E963F /* Files */,
+				B8DBED3D2E37EB85008E963F /* Links */,
+				B8DBED402E37EB85008E963F /* Music */,
+				B8DBED422E37EB85008E963F /* PhotosOrVideos */,
+				B8DBED452E37EB85008E963F /* Voices */,
+			);
+			path = media_pages;
+			sourceTree = "<group>";
+		};
+		B8DBED4E2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED352E37EB85008E963F /* cells */,
+				B8DBED372E37EB85008E963F /* controller */,
+				B8DBED462E37EB85008E963F /* media_pages */,
+				B8DBED472E37EB85008E963F /* ProfileAvatarView.swift */,
+				B8DBED482E37EB85008E963F /* ProfileContactView.swift */,
+				B8DBED492E37EB85008E963F /* ProfileDateHeaderView.swift */,
+				B8DBED4A2E37EB85008E963F /* ProfileMediaTypePicker.swift */,
+				B8DBED4B2E37EB85008E963F /* ProfileNavigationBar.swift */,
+				B8DBED4C2E37EB85008E963F /* ProfilePageControlView.swift */,
+				B8DBED4D2E37EB85008E963F /* ProfileStoriesView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED4F2E37EB85008E963F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED312E37EB85008E963F /* entity */,
+				B8DBED332E37EB85008E963F /* interactor */,
+				B8DBED4E2E37EB85008E963F /* view */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B8DBED512E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED502E37EB85008E963F /* SplashEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBED532E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED522E37EB85008E963F /* SplashInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED552E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED542E37EB85008E963F /* SplashPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED572E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED562E37EB85008E963F /* SplashProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED592E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED582E37EB85008E963F /* SplashRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED5C2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED5A2E37EB85008E963F /* SplashController.swift */,
+				B8DBED5B2E37EB85008E963F /* SplashView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED5D2E37EB85008E963F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED512E37EB85008E963F /* entity */,
+				B8DBED532E37EB85008E963F /* interactor */,
+				B8DBED552E37EB85008E963F /* presenter */,
+				B8DBED572E37EB85008E963F /* protocols */,
+				B8DBED592E37EB85008E963F /* router */,
+				B8DBED5C2E37EB85008E963F /* view */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B8DBED5F2E37EB85008E963F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED5E2E37EB85008E963F /* FloatingTabBarItem.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B8DBED612E37EB85008E963F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED602E37EB85008E963F /* TabBarRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B8DBED652E37EB85008E963F /* SampleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED622E37EB85008E963F /* ChatVC.swift */,
+				B8DBED632E37EB85008E963F /* FavoritesVC.swift */,
+				B8DBED642E37EB85008E963F /* HomeVC.swift */,
+			);
+			path = SampleControllers;
+			sourceTree = "<group>";
+		};
+		B8DBED682E37EB85008E963F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED662E37EB85008E963F /* FloatingTabBarView.swift */,
+				B8DBED672E37EB85008E963F /* MainTabBarController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8DBED692E37EB85008E963F /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED5F2E37EB85008E963F /* Entity */,
+				B8DBED612E37EB85008E963F /* Router */,
+				B8DBED652E37EB85008E963F /* SampleControllers */,
+				B8DBED682E37EB85008E963F /* Views */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		B8DBED6D2E37EB85008E963F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED6A2E37EB85008E963F /* NetworkType.swift */,
+				B8DBED6B2E37EB85008E963F /* WalletAssetRow.swift */,
+				B8DBED6C2E37EB85008E963F /* WalletRow.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B8DBED6F2E37EB85008E963F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED6E2E37EB85008E963F /* AssetSearchFilterManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B8DBED702E37EB85008E963F /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		B8DBED722E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED712E37EB85008E963F /* CurrencySelectionInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED742E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED732E37EB85008E963F /* CurrencySelectionPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED762E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED752E37EB85008E963F /* CurrencySelectionProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED782E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED772E37EB85008E963F /* CurrencySelectionRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED7B2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED792E37EB85008E963F /* CurrencySelectionController.swift */,
+				B8DBED7A2E37EB85008E963F /* CurrencySelectionView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED7C2E37EB85008E963F /* CurrencySelection */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED722E37EB85008E963F /* interactor */,
+				B8DBED742E37EB85008E963F /* presenter */,
+				B8DBED762E37EB85008E963F /* protocols */,
+				B8DBED782E37EB85008E963F /* router */,
+				B8DBED7B2E37EB85008E963F /* view */,
+			);
+			path = CurrencySelection;
+			sourceTree = "<group>";
+		};
+		B8DBED7E2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED7D2E37EB85008E963F /* WalletHomeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED802E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED7F2E37EB85008E963F /* WalletHomePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED822E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED812E37EB85008E963F /* WalletHomeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED842E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED832E37EB85008E963F /* WalletHomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED8B2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED852E37EB85008E963F /* WalletHomeBalanceView.swift */,
+				B8DBED862E37EB85008E963F /* WalletHomeBannerView.swift */,
+				B8DBED872E37EB85008E963F /* WalletHomeController.swift */,
+				B8DBED882E37EB85008E963F /* WalletHomeHeaderView.swift */,
+				B8DBED892E37EB85008E963F /* WalletHomeTableHeaderView.swift */,
+				B8DBED8A2E37EB85008E963F /* WalletHomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED8C2E37EB85008E963F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED7E2E37EB85008E963F /* interactor */,
+				B8DBED802E37EB85008E963F /* presenter */,
+				B8DBED822E37EB85008E963F /* protocols */,
+				B8DBED842E37EB85008E963F /* router */,
+				B8DBED8B2E37EB85008E963F /* view */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8DBED8E2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED8D2E37EB85008E963F /* WalletReceiveInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED902E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED8F2E37EB85008E963F /* WalletReceivePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED922E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED912E37EB85008E963F /* WalletReceiveProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBED942E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED932E37EB85008E963F /* WalletReceiveRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBED972E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED952E37EB85008E963F /* WalletReceiveController.swift */,
+				B8DBED962E37EB85008E963F /* WalletReceiveView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBED982E37EB85008E963F /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED8E2E37EB85008E963F /* interactor */,
+				B8DBED902E37EB85008E963F /* presenter */,
+				B8DBED922E37EB85008E963F /* protocols */,
+				B8DBED942E37EB85008E963F /* router */,
+				B8DBED972E37EB85008E963F /* view */,
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		B8DBED9A2E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED992E37EB85008E963F /* QRScannerInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBED9C2E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED9B2E37EB85008E963F /* QRScannerPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBED9E2E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED9D2E37EB85008E963F /* QRScannerProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBEDA02E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED9F2E37EB85008E963F /* QRScannerRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBEDA32E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDA12E37EB85008E963F /* QRScannerView.swift */,
+				B8DBEDA22E37EB85008E963F /* QRScannerViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBEDA42E37EB85008E963F /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED9A2E37EB85008E963F /* interactor */,
+				B8DBED9C2E37EB85008E963F /* presenter */,
+				B8DBED9E2E37EB85008E963F /* protocols */,
+				B8DBEDA02E37EB85008E963F /* router */,
+				B8DBEDA32E37EB85008E963F /* view */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		B8DBEDA62E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDA52E37EB85008E963F /* WalletSearchInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBEDA82E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDA72E37EB85008E963F /* WalletSearchPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBEDAA2E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDA92E37EB85008E963F /* WalletSearchProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBEDAC2E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDAB2E37EB85008E963F /* WalletSearchRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBEDAF2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDAD2E37EB85008E963F /* WalletSearchController.swift */,
+				B8DBEDAE2E37EB85008E963F /* WalletSearchView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBEDB02E37EB85008E963F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDA62E37EB85008E963F /* interactor */,
+				B8DBEDA82E37EB85008E963F /* presenter */,
+				B8DBEDAA2E37EB85008E963F /* protocols */,
+				B8DBEDAC2E37EB85008E963F /* router */,
+				B8DBEDAF2E37EB85008E963F /* view */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B8DBEDB22E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB12E37EB85008E963F /* WalletSendInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBEDB42E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB32E37EB85008E963F /* WalletSendPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBEDB62E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB52E37EB85008E963F /* WalletSendProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBEDB82E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB72E37EB85008E963F /* WalletSendRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBEDBC2E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB92E37EB85008E963F /* WalletSendController.swift */,
+				B8DBEDBA2E37EB85008E963F /* WalletSendNavigationBar.swift */,
+				B8DBEDBB2E37EB85008E963F /* WalletSendView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBEDBD2E37EB85008E963F /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDB22E37EB85008E963F /* interactor */,
+				B8DBEDB42E37EB85008E963F /* presenter */,
+				B8DBEDB62E37EB85008E963F /* protocols */,
+				B8DBEDB82E37EB85008E963F /* router */,
+				B8DBEDBC2E37EB85008E963F /* view */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		B8DBEDBF2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDBE2E37EB85008E963F /* TransactionDetails.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBEDC12E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDC02E37EB85008E963F /* TransactionDetailsRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBEDC32E37EB85008E963F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDC22E37EB85008E963F /* TransactionDetailsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B8DBEDC42E37EB85008E963F /* TransactionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDBF2E37EB85008E963F /* entity */,
+				B8DBEDC12E37EB85008E963F /* router */,
+				B8DBEDC32E37EB85008E963F /* view */,
+			);
+			path = TransactionDetails;
+			sourceTree = "<group>";
+		};
+		B8DBEDC52E37EB85008E963F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED7C2E37EB85008E963F /* CurrencySelection */,
+				B8DBED8C2E37EB85008E963F /* Home */,
+				B8DBED982E37EB85008E963F /* Receive */,
+				B8DBEDA42E37EB85008E963F /* Scan */,
+				B8DBEDB02E37EB85008E963F /* Search */,
+				B8DBEDBD2E37EB85008E963F /* Send */,
+				B8DBEDC42E37EB85008E963F /* TransactionDetails */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B8DBEDC82E37EB85008E963F /* FilterOptions */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDC62E37EB85008E963F /* OptionsSheetView.swift */,
+				B8DBEDC72E37EB85008E963F /* RadioOptionRowView.swift */,
+			);
+			path = FilterOptions;
+			sourceTree = "<group>";
+		};
+		B8DBEDCD2E37EB85008E963F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDC82E37EB85008E963F /* FilterOptions */,
+				B8DBEDC92E37EB85008E963F /* CircleRadioButton.swift */,
+				B8DBEDCA2E37EB85008E963F /* CurrencyFilterChipCell.swift */,
+				B8DBEDCB2E37EB85008E963F /* TransparentButton.swift */,
+				B8DBEDCC2E37EB85008E963F /* WalletAssetCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8DBEDCE2E37EB85008E963F /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBED6D2E37EB85008E963F /* Entities */,
+				B8DBED6F2E37EB85008E963F /* Managers */,
+				B8DBED702E37EB85008E963F /* Scan */,
+				B8DBEDC52E37EB85008E963F /* Screens */,
+				B8DBEDCD2E37EB85008E963F /* Views */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		B8DBEDCF2E37EB85008E963F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B8DBEDD12E37EB85008E963F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDD02E37EB85008E963F /* WelcomeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B8DBEDD32E37EB85008E963F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDD22E37EB85008E963F /* WelcomePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B8DBEDD52E37EB85008E963F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDD42E37EB85008E963F /* WelcomeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B8DBEDD72E37EB85008E963F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDD62E37EB85008E963F /* WelcomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B8DBEDDA2E37EB85008E963F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDD82E37EB85008E963F /* AuthView.swift */,
+				B8DBEDD92E37EB85008E963F /* AuthViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B8DBEDDB2E37EB85008E963F /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBEDCF2E37EB85008E963F /* entity */,
+				B8DBEDD12E37EB85008E963F /* interactor */,
+				B8DBEDD32E37EB85008E963F /* presenter */,
+				B8DBEDD52E37EB85008E963F /* protocols */,
+				B8DBEDD72E37EB85008E963F /* router */,
+				B8DBEDDA2E37EB85008E963F /* views */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		B8DBEDDC2E37EB85008E963F /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8DBECD92E37EB85008E963F /* auth */,
+				B8DBECF72E37EB85008E963F /* Chat */,
+				B8DBED0D2E37EB85008E963F /* ChatList */,
+				B8DBED192E37EB85008E963F /* ChooseTheme */,
+				B8DBED1B2E37EB85008E963F /* createAccount */,
+				B8DBED2F2E37EB85008E963F /* CreateChat */,
+				B8DBED4F2E37EB85008E963F /* Profile */,
+				B8DBED5D2E37EB85008E963F /* Splash */,
+				B8DBED692E37EB85008E963F /* tabbar */,
+				B8DBEDCE2E37EB85008E963F /* Wallet */,
+				B8DBEDDB2E37EB85008E963F /* welcome */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -373,6 +2016,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B8DBEE9B2E37ECA8008E963F /* fonts */,
 			);
 			name = frameUI;
 			productName = frameUI;
@@ -461,11 +2107,189 @@
 				B8C2823D2E2FAC8100DE8C86 /* Localization.swift in Sources */,
 				B8C2822E2E2FAC4200DE8C86 /* BackwardDetectingTextField.swift in Sources */,
 				B8C2822F2E2FAC4200DE8C86 /* TemplateController.swift in Sources */,
+				B8DBEDDD2E37EB85008E963F /* CurrencySelectionController.swift in Sources */,
+				B8DBEDDE2E37EB85008E963F /* CreateAccountPresenter.swift in Sources */,
+				B8DBEDDF2E37EB85008E963F /* ProfileMediaRow.swift in Sources */,
+				B8DBEDE02E37EB85008E963F /* RadioOptionRowView.swift in Sources */,
+				B8DBEDE12E37EB85008E963F /* ChatSearchResult.swift in Sources */,
+				B8DBEDE22E37EB85008E963F /* FloatingTabBarItem.swift in Sources */,
+				B8DBEDE32E37EB85008E963F /* ChatListCell.swift in Sources */,
+				B8DBEDE42E37EB85008E963F /* ProfileLinkItemCell.swift in Sources */,
+				B8DBEDE52E37EB85008E963F /* ChatNavigationView.swift in Sources */,
+				B8DBEDE62E37EB85008E963F /* SplashRouter.swift in Sources */,
+				B8DBEDE72E37EB85008E963F /* SplashInteractor.swift in Sources */,
+				B8DBEDE82E37EB85008E963F /* ChatMessageInputPanelView.swift in Sources */,
+				B8DBEDE92E37EB85008E963F /* OtpEmailRouter.swift in Sources */,
+				B8DBEDEA2E37EB85008E963F /* PinCodeView.swift in Sources */,
+				B8DBEDEB2E37EB85008E963F /* RegistrationTypeInteractor.swift in Sources */,
+				B8DBEDEC2E37EB85008E963F /* CreateChatButton.swift in Sources */,
+				B8DBEDED2E37EB85008E963F /* ChooseThemeRouter.swift in Sources */,
+				B8DBEDEE2E37EB85008E963F /* ChatProtocols.swift in Sources */,
+				B8DBEDEF2E37EB85008E963F /* ChooseThemePresenter.swift in Sources */,
+				B8DBEDF02E37EB85008E963F /* WalletHomeHeaderView.swift in Sources */,
+				B8DBEDF12E37EB85008E963F /* PinCodeInteractor.swift in Sources */,
+				B8DBEDF22E37EB85008E963F /* PinCodeProtocols.swift in Sources */,
+				B8DBEDF32E37EB85008E963F /* WalletSearchProtocols.swift in Sources */,
+				B8DBEDF42E37EB85008E963F /* ShimmerLoader.swift in Sources */,
+				B8DBEDF52E37EB85008E963F /* WalletHomeInteractor.swift in Sources */,
+				B8DBEDF62E37EB85008E963F /* ChatListInteractor.swift in Sources */,
+				B8DBEDF72E37EB85008E963F /* TransactionDetails.swift in Sources */,
+				B8DBEDF82E37EB85008E963F /* RegistrationTypeViewController.swift in Sources */,
+				B8DBEDF92E37EB85008E963F /* ChatController.swift in Sources */,
+				B8DBEDFA2E37EB85008E963F /* WalletAssetRow.swift in Sources */,
+				B8DBEDFB2E37EB85008E963F /* WalletSendNavigationBar.swift in Sources */,
+				B8DBEDFC2E37EB85008E963F /* ChatPresenter.swift in Sources */,
+				B8DBEDFD2E37EB85008E963F /* CreateAccountRouter.swift in Sources */,
+				B8DBEDFE2E37EB85008E963F /* FavoritesVC.swift in Sources */,
+				B8DBEDFF2E37EB85008E963F /* PinCodeDotsView.swift in Sources */,
+				B8DBEE002E37EB85008E963F /* AssetSearchFilterManager.swift in Sources */,
+				B8DBEE012E37EB85008E963F /* CurrencySelectionRouter.swift in Sources */,
+				B8DBEE022E37EB85008E963F /* CreateChatProtocols.swift in Sources */,
+				B8DBEE032E37EB85008E963F /* WalletHomeBannerView.swift in Sources */,
+				B8DBEE042E37EB85008E963F /* ChooseThemeInteractor.swift in Sources */,
+				B8DBEE052E37EB85008E963F /* FloatingTabBarView.swift in Sources */,
+				B8DBEE062E37EB85008E963F /* AuthTextField.swift in Sources */,
+				B8DBEE072E37EB85008E963F /* MainTabBarController.swift in Sources */,
+				B8DBEE082E37EB85008E963F /* PinCodeController.swift in Sources */,
+				B8DBEE092E37EB85008E963F /* ContactSection.swift in Sources */,
+				B8DBEE0A2E37EB85008E963F /* ProfilePageControlView.swift in Sources */,
+				B8DBEE0B2E37EB85008E963F /* ProfileMediaTypePicker.swift in Sources */,
+				B8DBEE0C2E37EB85008E963F /* SplashEntity.swift in Sources */,
+				B8DBEE0D2E37EB85008E963F /* AuthViewController.swift in Sources */,
+				B8DBEE0E2E37EB85008E963F /* OtpEmailProtocols.swift in Sources */,
+				B8DBEE0F2E37EB85008E963F /* ChatTxInputPanelView.swift in Sources */,
+				B8DBEE102E37EB85008E963F /* PinCodeRouter.swift in Sources */,
+				B8DBEE112E37EB85008E963F /* WalletSendRouter.swift in Sources */,
+				B8DBEE122E37EB85008E963F /* ProfileController.swift in Sources */,
+				B8DBEE132E37EB85008E963F /* QRScannerProtocols.swift in Sources */,
+				B8DBEE142E37EB85008E963F /* SplashController.swift in Sources */,
+				B8DBEE152E37EB85008E963F /* WelcomeRouter.swift in Sources */,
+				B8DBEE162E37EB85008E963F /* ProfileMediaPagesCarousel.swift in Sources */,
+				B8DBEE172E37EB85008E963F /* WelcomePresenter.swift in Sources */,
+				B8DBEE182E37EB85008E963F /* QRScannerPresenter.swift in Sources */,
+				B8DBEE192E37EB85008E963F /* OtpEmailView.swift in Sources */,
+				B8DBEE1A2E37EB85008E963F /* PasswordRequirementView.swift in Sources */,
+				B8DBEE1B2E37EB85008E963F /* WalletSearchView.swift in Sources */,
+				B8DBEE1C2E37EB85008E963F /* WalletReceiveView.swift in Sources */,
+				B8DBEE1D2E37EB85008E963F /* ChatMessageTransactionView.swift in Sources */,
+				B8DBEE1E2E37EB85008E963F /* Section.swift in Sources */,
+				B8DBEE1F2E37EB85008E963F /* SplashProtocols.swift in Sources */,
+				B8DBEE202E37EB85008E963F /* ProfileMusicPageCell.swift in Sources */,
+				B8DBEE212E37EB85008E963F /* WalletSendController.swift in Sources */,
+				B8DBEE222E37EB85008E963F /* WalletHomeBalanceView.swift in Sources */,
+				B8DBEE232E37EB85008E963F /* WalletReceiveRouter.swift in Sources */,
+				B8DBEE242E37EB85008E963F /* OtpEmailInteractor.swift in Sources */,
+				B8DBEE252E37EB85008E963F /* WalletSearchController.swift in Sources */,
+				B8DBEE262E37EB85008E963F /* ContactCell.swift in Sources */,
+				B8DBEE272E37EB85008E963F /* ChatListPresenter.swift in Sources */,
+				B8DBEE282E37EB85008E963F /* WalletRow.swift in Sources */,
+				B8DBEE292E37EB85008E963F /* OptionsSheetView.swift in Sources */,
+				B8DBEE2A2E37EB85008E963F /* WelcomeProtocols.swift in Sources */,
+				B8DBEE2B2E37EB85008E963F /* WalletHomeView.swift in Sources */,
+				B8DBEE2C2E37EB85008E963F /* WalletSearchRouter.swift in Sources */,
+				B8DBEE2D2E37EB85008E963F /* SearchResultPanel.swift in Sources */,
+				B8DBEE2E2E37EB85008E963F /* QRScannerViewController.swift in Sources */,
+				B8DBEE2F2E37EB85008E963F /* WalletSendView.swift in Sources */,
+				B8DBEE302E37EB85008E963F /* CreateAccountInteractor.swift in Sources */,
+				B8DBEE312E37EB85008E963F /* ProfileInteractor.swift in Sources */,
+				B8DBEE322E37EB85008E963F /* CurrencySelectionProtocols.swift in Sources */,
+				B8DBEE332E37EB85008E963F /* WalletHomeRouter.swift in Sources */,
+				B8DBEE342E37EB85008E963F /* Story.swift in Sources */,
+				B8DBEE352E37EB85008E963F /* CircleRadioButton.swift in Sources */,
+				B8DBEE362E37EB85008E963F /* WalletSearchInteractor.swift in Sources */,
+				B8DBEE372E37EB85008E963F /* RegistrationTypeProtocols.swift in Sources */,
+				B8DBEE382E37EB85008E963F /* CurrencyFilterChipCell.swift in Sources */,
+				B8DBEE392E37EB85008E963F /* TabBarRouter.swift in Sources */,
+				B8DBEE3A2E37EB85008E963F /* ProfileVoicePageCell.swift in Sources */,
+				B8DBEE3B2E37EB85008E963F /* WalletSendInteractor.swift in Sources */,
+				B8DBEE3C2E37EB85008E963F /* ChatMessageTextView.swift in Sources */,
+				B8DBEE3D2E37EB85008E963F /* ProfilePhotosPageCell.swift in Sources */,
+				B8DBEE3E2E37EB85008E963F /* CurrencySelectionView.swift in Sources */,
+				B8DBEE3F2E37EB85008E963F /* HomeVC.swift in Sources */,
+				B8DBEE402E37EB85008E963F /* OtpEmailPresenter.swift in Sources */,
+				B8DBEE412E37EB85008E963F /* TransactionDetailsRouter.swift in Sources */,
+				B8DBEE422E37EB85008E963F /* CreateChatViewController.swift in Sources */,
+				B8DBEE432E37EB85008E963F /* ChatListRouter.swift in Sources */,
+				B8DBEE442E37EB85008E963F /* AddMembersView.swift in Sources */,
+				B8DBEE452E37EB85008E963F /* CreateAccountProtocols.swift in Sources */,
+				B8DBEE462E37EB85008E963F /* CreateChatPresenter.swift in Sources */,
+				B8DBEE472E37EB85008E963F /* QRScannerView.swift in Sources */,
+				B8DBEE482E37EB85008E963F /* CurrencySelectionPresenter.swift in Sources */,
+				B8DBEE492E37EB85008E963F /* ProfileNavigationBar.swift in Sources */,
+				B8DBEE4A2E37EB85008E963F /* ChatContentViewFactory.swift in Sources */,
+				B8DBEE4B2E37EB85008E963F /* RegistrationTypePresenter.swift in Sources */,
+				B8DBEE4C2E37EB85008E963F /* ProfileFilesPageCell.swift in Sources */,
+				B8DBEE4D2E37EB85008E963F /* RegistrationTypeView.swift in Sources */,
+				B8DBEE4E2E37EB85008E963F /* OtpEmailEntity.swift in Sources */,
+				B8DBEE4F2E37EB85008E963F /* ChatListProtocols.swift in Sources */,
+				B8DBEE502E37EB85008E963F /* ChatView.swift in Sources */,
+				B8DBEE512E37EB85008E963F /* ChooseThemeViewController.swift in Sources */,
+				B8DBEE522E37EB85008E963F /* ChatDataManager.swift in Sources */,
+				B8DBEE532E37EB85008E963F /* ProfileLinksPageCell.swift in Sources */,
+				B8DBEE542E37EB85008E963F /* CreateChatInteractor.swift in Sources */,
+				B8DBEE552E37EB85008E963F /* ProfileDateHeaderView.swift in Sources */,
+				B8DBEE562E37EB85008E963F /* ChooseThemeProtocols.swift in Sources */,
+				B8DBEE572E37EB85008E963F /* ThemeChooserView.swift in Sources */,
+				B8DBEE582E37EB85008E963F /* NetworkType.swift in Sources */,
+				B8DBEE592E37EB85008E963F /* WalletHomeProtocols.swift in Sources */,
+				B8DBEE5A2E37EB85008E963F /* ChatInputPanelView.swift in Sources */,
+				B8DBEE5B2E37EB85008E963F /* ProfileMusicItemCell.swift in Sources */,
+				B8DBEE902E37EC27008E963F /* Constants.swift in Sources */,
+				B8DBEE5C2E37EB85008E963F /* ProfileFileItemCell.swift in Sources */,
+				B8DBEE5D2E37EB85008E963F /* SplashPresenter.swift in Sources */,
+				B8DBEE5E2E37EB85008E963F /* PasswordRulesStackView.swift in Sources */,
+				B8DBEE5F2E37EB85008E963F /* NewMessageView.swift in Sources */,
+				B8DBEE602E37EB85008E963F /* CreateGroupNameView.swift in Sources */,
+				B8DBEE612E37EB85008E963F /* AuthView.swift in Sources */,
+				B8DBEE622E37EB85008E963F /* MessageProvider.swift in Sources */,
+				B8DBEE632E37EB85008E963F /* ChatRouter.swift in Sources */,
+				B8DBEE642E37EB85008E963F /* PinCodePresenter.swift in Sources */,
+				B8DBEE652E37EB85008E963F /* CreateAccountViewController.swift in Sources */,
+				B8DBEE662E37EB85008E963F /* ChatInteractor.swift in Sources */,
+				B8DBEE672E37EB85008E963F /* WalletSendProtocols.swift in Sources */,
+				B8DBEE682E37EB85008E963F /* CurrencySelectionInteractor.swift in Sources */,
+				B8DBEE692E37EB85008E963F /* ChatListView.swift in Sources */,
+				B8DBEE6A2E37EB85008E963F /* ChatVC.swift in Sources */,
+				B8DBEE6B2E37EB85008E963F /* ProfileStoriesView.swift in Sources */,
+				B8DBEE6C2E37EB85008E963F /* QRScannerInteractor.swift in Sources */,
+				B8DBEE6D2E37EB85008E963F /* WalletAssetCell.swift in Sources */,
+				B8DBEE6E2E37EB85008E963F /* WelcomeInteractor.swift in Sources */,
+				B8DBEE6F2E37EB85008E963F /* CreateAccountView.swift in Sources */,
+				B8DBEE702E37EB85008E963F /* WalletSendPresenter.swift in Sources */,
+				B8DBEE712E37EB85008E963F /* ChatInputPanelActionButton.swift in Sources */,
+				B8DBEE722E37EB85008E963F /* RegistrationTypeRouter.swift in Sources */,
+				B8DBEE732E37EB85008E963F /* WalletReceivePresenter.swift in Sources */,
+				B8DBEE742E37EB85008E963F /* WalletHomeTableHeaderView.swift in Sources */,
+				B8DBEE752E37EB85008E963F /* WalletHomePresenter.swift in Sources */,
+				B8DBEE762E37EB85008E963F /* OtpEmailController.swift in Sources */,
+				B8DBEE772E37EB85008E963F /* ProfileAvatarView.swift in Sources */,
+				B8DBEE782E37EB85008E963F /* GradientSelectableButton.swift in Sources */,
+				B8DBEE792E37EB85008E963F /* CreateChatNavigationBar.swift in Sources */,
+				B8DBEE7A2E37EB85008E963F /* ProfileVoiceItemCell.swift in Sources */,
+				B8DBEE7B2E37EB85008E963F /* CreateChatRouter.swift in Sources */,
+				B8DBEE7C2E37EB85008E963F /* QRScannerRouter.swift in Sources */,
+				B8DBEE7D2E37EB85008E963F /* ChatListController.swift in Sources */,
+				B8DBEE7E2E37EB85008E963F /* Contact.swift in Sources */,
+				B8DBEE7F2E37EB85008E963F /* SearchResultCell.swift in Sources */,
+				B8DBEE802E37EB85008E963F /* ChatListNavigationView.swift in Sources */,
+				B8DBEE812E37EB85008E963F /* TransparentButton.swift in Sources */,
+				B8DBEE822E37EB85008E963F /* SplashView.swift in Sources */,
+				B8DBEE832E37EB85008E963F /* WalletReceiveInteractor.swift in Sources */,
+				B8DBEE842E37EB85008E963F /* WalletHomeController.swift in Sources */,
+				B8DBEE852E37EB85008E963F /* TransactionDetailsView.swift in Sources */,
+				B8DBEE862E37EB85008E963F /* WalletReceiveProtocols.swift in Sources */,
+				B8DBEE872E37EB85008E963F /* WalletReceiveController.swift in Sources */,
+				B8DBEE882E37EB85008E963F /* WalletSearchPresenter.swift in Sources */,
+				B8DBEE892E37EB85008E963F /* ChatCell.swift in Sources */,
+				B8DBEE8A2E37EB85008E963F /* Chat.swift in Sources */,
+				B8DBEE8B2E37EB85008E963F /* ChatListStoryCell.swift in Sources */,
+				B8DBEE8C2E37EB85008E963F /* ProfileContactView.swift in Sources */,
+				B8DBEE8D2E37EB85008E963F /* ChatMessageRow.swift in Sources */,
+				B8DBEE8E2E37EB85008E963F /* KeypadView.swift in Sources */,
 				B8C282302E2FAC4200DE8C86 /* ReusableBottomSheetView.swift in Sources */,
 				B8C282312E2FAC4200DE8C86 /* TemplateView.swift in Sources */,
 				B8C282322E2FAC4200DE8C86 /* TemplateTextField.swift in Sources */,
 				B84750E22E2FB424004E9A7B /* GeneratedStrings.swift in Sources */,
-				B8C2824A2E2FAFEA00DE8C86 /* NetworkType.swift in Sources */,
 				B8C282332E2FAC4200DE8C86 /* ReusableBottomSheetController.swift in Sources */,
 				B8C282342E2FAC4200DE8C86 /* TemplateSearchBar.swift in Sources */,
 				B8C282352E2FAC4200DE8C86 /* BottomSheetContentView.swift in Sources */,

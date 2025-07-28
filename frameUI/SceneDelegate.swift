@@ -10,15 +10,31 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var navigationController: UINavigationController?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: windowScene)
-        let vc = PermissionsViewController()
-        window?.rootViewController = vc
         window?.makeKeyAndVisible()
+        Theme.colorPalette = .purple
+        showMainTabBarController()
+    }
+    
+    func showMainTabBarController() {
+        let tabBarVC = TabBarRouter.createModule()
+        self.navigationController = UINavigationController(rootViewController: tabBarVC)
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.isHidden = true
+        self.window?.rootViewController = self.navigationController
+    }
+
+    func showSplashController() {
+        let rootViewController = SplashRouter.createModule()
+        self.navigationController = UINavigationController(rootViewController: rootViewController)
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.isHidden = true
+        self.window?.rootViewController = self.navigationController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -1,10 +1,9 @@
 //
 //  NetworkType.swift
-//  frameUI
+//  Tedr
 //
-//  Created by Temur on 22/07/2025.
+//  Created by Kostya Lee on 23/05/25.
 //
-
 
 import Foundation
 
