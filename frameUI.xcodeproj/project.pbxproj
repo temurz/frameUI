@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 57;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,15 @@
 		3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */; };
 		3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */; };
 		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
+		B83D66542E38D5C300540229 /* Onest-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D66492E38D5C300540229 /* Onest-Black.ttf */; };
+		B83D66552E38D5C300540229 /* Onest-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664A2E38D5C300540229 /* Onest-Bold.ttf */; };
+		B83D66562E38D5C300540229 /* Onest-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664B2E38D5C300540229 /* Onest-ExtraBold.ttf */; };
+		B83D66572E38D5C300540229 /* Onest-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664C2E38D5C300540229 /* Onest-ExtraLight.ttf */; };
+		B83D66582E38D5C300540229 /* Onest-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664D2E38D5C300540229 /* Onest-Light.ttf */; };
+		B83D66592E38D5C300540229 /* Onest-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664E2E38D5C300540229 /* Onest-Medium.ttf */; };
+		B83D665A2E38D5C300540229 /* Onest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664F2E38D5C300540229 /* Onest-Regular.ttf */; };
+		B83D665B2E38D5C300540229 /* Onest-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D66502E38D5C300540229 /* Onest-SemiBold.ttf */; };
+		B83D665C2E38D5C300540229 /* Onest-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D66512E38D5C300540229 /* Onest-Thin.ttf */; };
 		B84750E22E2FB424004E9A7B /* GeneratedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */; };
 		B8C281E92E2FAAE700DE8C86 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C281E82E2FAAE700DE8C86 /* ThemeProtocol.swift */; };
 		B8C281EA2E2FAAE700DE8C86 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C281E62E2FAAE700DE8C86 /* Theme.swift */; };
@@ -243,6 +252,15 @@
 		3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChooserViewController.swift; sourceTree = "<group>"; };
 		3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
+		B83D66492E38D5C300540229 /* Onest-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Black.ttf"; sourceTree = "<group>"; };
+		B83D664A2E38D5C300540229 /* Onest-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Bold.ttf"; sourceTree = "<group>"; };
+		B83D664B2E38D5C300540229 /* Onest-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B83D664C2E38D5C300540229 /* Onest-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B83D664D2E38D5C300540229 /* Onest-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Light.ttf"; sourceTree = "<group>"; };
+		B83D664E2E38D5C300540229 /* Onest-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Medium.ttf"; sourceTree = "<group>"; };
+		B83D664F2E38D5C300540229 /* Onest-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Regular.ttf"; sourceTree = "<group>"; };
+		B83D66502E38D5C300540229 /* Onest-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-SemiBold.ttf"; sourceTree = "<group>"; };
+		B83D66512E38D5C300540229 /* Onest-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Thin.ttf"; sourceTree = "<group>"; };
 		B8474EB02E2FB28F004E9A7B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedStrings.swift; sourceTree = "<group>"; };
 		B8C281E52E2FAAE700DE8C86 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -464,10 +482,6 @@
 		B8DBEE8F2E37EC27008E963F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B8DBEE9B2E37ECA8008E963F /* fonts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = fonts; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		3D1647282E200252004DE7B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -513,6 +527,30 @@
 				B8C282112E2FABED00DE8C86 /* Preferences.swift */,
 			);
 			path = frameUI;
+			sourceTree = "<group>";
+		};
+		B83D66522E38D5C300540229 /* Onest */ = {
+			isa = PBXGroup;
+			children = (
+				B83D66492E38D5C300540229 /* Onest-Black.ttf */,
+				B83D664A2E38D5C300540229 /* Onest-Bold.ttf */,
+				B83D664B2E38D5C300540229 /* Onest-ExtraBold.ttf */,
+				B83D664C2E38D5C300540229 /* Onest-ExtraLight.ttf */,
+				B83D664D2E38D5C300540229 /* Onest-Light.ttf */,
+				B83D664E2E38D5C300540229 /* Onest-Medium.ttf */,
+				B83D664F2E38D5C300540229 /* Onest-Regular.ttf */,
+				B83D66502E38D5C300540229 /* Onest-SemiBold.ttf */,
+				B83D66512E38D5C300540229 /* Onest-Thin.ttf */,
+			);
+			path = Onest;
+			sourceTree = "<group>";
+		};
+		B83D66532E38D5C300540229 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B83D66522E38D5C300540229 /* Onest */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		B8C281E42E2FAAE000DE8C86 /* theme */ = {
@@ -696,7 +734,7 @@
 		B8C282412E2FAF5500DE8C86 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				B8DBEE9B2E37ECA8008E963F /* fonts */,
+				B83D66532E38D5C300540229 /* fonts */,
 				B8DBEE8F2E37EC27008E963F /* Constants.swift */,
 				B84750E12E2FB424004E9A7B /* GeneratedStrings.swift */,
 				B8C282422E2FAF5C00DE8C86 /* localization */,
@@ -2017,9 +2055,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B8DBEE9B2E37ECA8008E963F /* fonts */,
-			);
 			name = frameUI;
 			productName = frameUI;
 			productReference = 3D16472B2E200252004DE7B7 /* frameUI.app */;
@@ -2066,6 +2101,15 @@
 			files = (
 				3D16473B2E200255004DE7B7 /* LaunchScreen.storyboard in Resources */,
 				B8C282462E2FAF5F00DE8C86 /* Localizable.strings in Resources */,
+				B83D66542E38D5C300540229 /* Onest-Black.ttf in Resources */,
+				B83D66552E38D5C300540229 /* Onest-Bold.ttf in Resources */,
+				B83D66562E38D5C300540229 /* Onest-ExtraBold.ttf in Resources */,
+				B83D66572E38D5C300540229 /* Onest-ExtraLight.ttf in Resources */,
+				B83D66582E38D5C300540229 /* Onest-Light.ttf in Resources */,
+				B83D66592E38D5C300540229 /* Onest-Medium.ttf in Resources */,
+				B83D665A2E38D5C300540229 /* Onest-Regular.ttf in Resources */,
+				B83D665B2E38D5C300540229 /* Onest-SemiBold.ttf in Resources */,
+				B83D665C2E38D5C300540229 /* Onest-Thin.ttf in Resources */,
 				3D1647382E200255004DE7B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
