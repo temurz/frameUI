@@ -525,4 +525,10 @@ extension PurpleTheme {
     var tedrLogo: UIImage? {
         return UIImage(named: "tedrLogo")
     }
+    
+    // MARK: Avatar icons
+    
+    var avatar : UIImage? {
+        return UIImage(named: "avatar")
+    }
 }

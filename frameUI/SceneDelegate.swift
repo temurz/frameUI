@@ -18,7 +18,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.makeKeyAndVisible()
         Theme.colorPalette = .purple
-        showMainTabBarController()
+        
+        showSomeVC()
+        
+        
+//        showMainTabBarController()
+    }
+    
+    func showSomeVC() {
+        let vc = SettingsAdminViewController()
+        self.navigationController = UINavigationController(rootViewController: vc)
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.isHidden = true
+        self.window?.rootViewController = self.navigationController
     }
     
     func showMainTabBarController() {

@@ -14,6 +14,12 @@
 		3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */; };
 		3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */; };
 		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
+		3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */; };
+		3DF433AC2E3A41A00005CAEF /* SettingsAdminRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */; };
+		3DF433AD2E3A41A00005CAEF /* SettingsAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A72E3A41A00005CAEF /* SettingsAdminViewController.swift */; };
+		3DF433AE2E3A41A00005CAEF /* SettingsAdminProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A82E3A41A00005CAEF /* SettingsAdminProtocols.swift */; };
+		3DF433AF2E3A41A00005CAEF /* SettingsAdminInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A92E3A41A00005CAEF /* SettingsAdminInteractor.swift */; };
+		3DF433B02E3A41A00005CAEF /* SettingsAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433AA2E3A41A00005CAEF /* SettingsAdminView.swift */; };
 		B83D66542E38D5C300540229 /* Onest-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D66492E38D5C300540229 /* Onest-Black.ttf */; };
 		B83D66552E38D5C300540229 /* Onest-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664A2E38D5C300540229 /* Onest-Bold.ttf */; };
 		B83D66562E38D5C300540229 /* Onest-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B83D664B2E38D5C300540229 /* Onest-ExtraBold.ttf */; };
@@ -252,6 +258,12 @@
 		3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChooserViewController.swift; sourceTree = "<group>"; };
 		3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
+		3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminPresenter.swift; sourceTree = "<group>"; };
+		3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminRouter.swift; sourceTree = "<group>"; };
+		3DF433A72E3A41A00005CAEF /* SettingsAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminViewController.swift; sourceTree = "<group>"; };
+		3DF433A82E3A41A00005CAEF /* SettingsAdminProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminProtocols.swift; sourceTree = "<group>"; };
+		3DF433A92E3A41A00005CAEF /* SettingsAdminInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminInteractor.swift; sourceTree = "<group>"; };
+		3DF433AA2E3A41A00005CAEF /* SettingsAdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminView.swift; sourceTree = "<group>"; };
 		B83D66492E38D5C300540229 /* Onest-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Black.ttf"; sourceTree = "<group>"; };
 		B83D664A2E38D5C300540229 /* Onest-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Bold.ttf"; sourceTree = "<group>"; };
 		B83D664B2E38D5C300540229 /* Onest-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -527,6 +539,59 @@
 				B8C282112E2FABED00DE8C86 /* Preferences.swift */,
 			);
 			path = frameUI;
+			sourceTree = "<group>";
+		};
+		3DF433A42E3A41760005CAEF /* SettingsAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433B52E3A42080005CAEF /* interactor */,
+				3DF433B12E3A41C50005CAEF /* presenter */,
+				3DF433B42E3A41FA0005CAEF /* protocols */,
+				3DF433B22E3A41D80005CAEF /* router */,
+				3DF433B32E3A41E60005CAEF /* view */,
+			);
+			path = SettingsAdmin;
+			sourceTree = "<group>";
+		};
+		3DF433B12E3A41C50005CAEF /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3DF433B22E3A41D80005CAEF /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3DF433B32E3A41E60005CAEF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433A72E3A41A00005CAEF /* SettingsAdminViewController.swift */,
+				3DF433AA2E3A41A00005CAEF /* SettingsAdminView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3DF433B42E3A41FA0005CAEF /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433A82E3A41A00005CAEF /* SettingsAdminProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DF433B52E3A42080005CAEF /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DF433A92E3A41A00005CAEF /* SettingsAdminInteractor.swift */,
+			);
+			path = interactor;
 			sourceTree = "<group>";
 		};
 		B83D66522E38D5C300540229 /* Onest */ = {
@@ -1223,21 +1288,6 @@
 				B8DBED182E37EB85008E963F /* view */,
 			);
 			path = ChooseTheme;
-			sourceTree = "<group>";
-		};
-		B8DBED1A2E37EB85008E963F /* entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		B8DBED1B2E37EB85008E963F /* createAccount */ = {
-			isa = PBXGroup;
-			children = (
-				B8DBED1A2E37EB85008E963F /* entity */,
-			);
-			path = createAccount;
 			sourceTree = "<group>";
 		};
 		B8DBED1E2E37EB85008E963F /* entity */ = {
@@ -2028,13 +2078,13 @@
 				B8DBECF72E37EB85008E963F /* Chat */,
 				B8DBED0D2E37EB85008E963F /* ChatList */,
 				B8DBED192E37EB85008E963F /* ChooseTheme */,
-				B8DBED1B2E37EB85008E963F /* createAccount */,
 				B8DBED2F2E37EB85008E963F /* CreateChat */,
 				B8DBED4F2E37EB85008E963F /* Profile */,
 				B8DBED5D2E37EB85008E963F /* Splash */,
 				B8DBED692E37EB85008E963F /* tabbar */,
 				B8DBEDCE2E37EB85008E963F /* Wallet */,
 				B8DBEDDB2E37EB85008E963F /* welcome */,
+				3DF433A42E3A41760005CAEF /* SettingsAdmin */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -2141,6 +2191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF433AC2E3A41A00005CAEF /* SettingsAdminRouter.swift in Sources */,
 				3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */,
 				3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */,
 				3D16472F2E200252004DE7B7 /* AppDelegate.swift in Sources */,
@@ -2206,10 +2257,12 @@
 				B8DBEE112E37EB85008E963F /* WalletSendRouter.swift in Sources */,
 				B8DBEE122E37EB85008E963F /* ProfileController.swift in Sources */,
 				B8DBEE132E37EB85008E963F /* QRScannerProtocols.swift in Sources */,
+				3DF433AE2E3A41A00005CAEF /* SettingsAdminProtocols.swift in Sources */,
 				B8DBEE142E37EB85008E963F /* SplashController.swift in Sources */,
 				B8DBEE152E37EB85008E963F /* WelcomeRouter.swift in Sources */,
 				B8DBEE162E37EB85008E963F /* ProfileMediaPagesCarousel.swift in Sources */,
 				B8DBEE172E37EB85008E963F /* WelcomePresenter.swift in Sources */,
+				3DF433AF2E3A41A00005CAEF /* SettingsAdminInteractor.swift in Sources */,
 				B8DBEE182E37EB85008E963F /* QRScannerPresenter.swift in Sources */,
 				B8DBEE192E37EB85008E963F /* OtpEmailView.swift in Sources */,
 				B8DBEE1A2E37EB85008E963F /* PasswordRequirementView.swift in Sources */,
@@ -2270,6 +2323,7 @@
 				B8DBEE512E37EB85008E963F /* ChooseThemeViewController.swift in Sources */,
 				B8DBEE522E37EB85008E963F /* ChatDataManager.swift in Sources */,
 				B8DBEE532E37EB85008E963F /* ProfileLinksPageCell.swift in Sources */,
+				3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */,
 				B8DBEE542E37EB85008E963F /* CreateChatInteractor.swift in Sources */,
 				B8DBEE552E37EB85008E963F /* ProfileDateHeaderView.swift in Sources */,
 				B8DBEE562E37EB85008E963F /* ChooseThemeProtocols.swift in Sources */,
@@ -2296,6 +2350,7 @@
 				B8DBEE6A2E37EB85008E963F /* ChatVC.swift in Sources */,
 				B8DBEE6B2E37EB85008E963F /* ProfileStoriesView.swift in Sources */,
 				B8DBEE6C2E37EB85008E963F /* QRScannerInteractor.swift in Sources */,
+				3DF433B02E3A41A00005CAEF /* SettingsAdminView.swift in Sources */,
 				B8DBEE6D2E37EB85008E963F /* WalletAssetCell.swift in Sources */,
 				B8DBEE6E2E37EB85008E963F /* WelcomeInteractor.swift in Sources */,
 				B8DBEE6F2E37EB85008E963F /* CreateAccountView.swift in Sources */,
@@ -2362,6 +2417,7 @@
 				3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */,
 				B8C281F72E2FAB0100DE8C86 /* DarkThemeColors.swift in Sources */,
 				B8C281F82E2FAB0100DE8C86 /* DarkThemeIcons.swift in Sources */,
+				3DF433AD2E3A41A00005CAEF /* SettingsAdminViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

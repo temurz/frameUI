@@ -247,6 +247,11 @@ protocol ThemeProtocol: AnyObject {
     var splashImage: UIImage? { get }
     var tedrLogo: UIImage? { get }
     
+    
+    // MARK: Avatar icons
+    
+    var avatar : UIImage? { get }
+    
     //MARK: - Fonts
     func getFont(size: CGFloat, weight: UIFont.Weight, italic: Bool) -> UIFont
     func onestFont(size: CGFloat, weight: OnestWeight) -> UIFont
