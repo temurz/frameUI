@@ -36,6 +36,7 @@ protocol ThemeProtocol: AnyObject {
     var contentBlue: UIColor { get }
     var contentRed: UIColor { get }
     var contentYellow: UIColor { get }
+    var contentPurple: UIColor { get }
     var reorderActionBackground: UIColor { get }
     var pinActionBackground: UIColor { get }
     var readActionBackground: UIColor { get }

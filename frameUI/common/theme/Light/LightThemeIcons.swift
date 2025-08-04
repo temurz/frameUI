@@ -532,4 +532,9 @@ extension LightTheme {
     var avatar : UIImage? {
         return UIImage(named: "avatar")
     }
+    
+    // MARK: Other icons
+    
+    
+
 }

@@ -93,6 +93,11 @@ extension LightTheme {
     var contentYellow: UIColor {
         return UIColor(hex: "#FAC765")
     }
+    
+    var contentPurple : UIColor {
+        return UIColor(hex: "#8D5FF0")
+    }
+    
     var reorderActionBackground: UIColor {
         return UIColor(hex: "#51DDFC33") // ChatListController table action
     }
