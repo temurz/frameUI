@@ -36,6 +36,7 @@ protocol ThemeProtocol: AnyObject {
     var contentBlue: UIColor { get }
     var contentRed: UIColor { get }
     var contentYellow: UIColor { get }
+    var contentPurple: UIColor { get }
     var reorderActionBackground: UIColor { get }
     var pinActionBackground: UIColor { get }
     var readActionBackground: UIColor { get }
@@ -246,6 +247,11 @@ protocol ThemeProtocol: AnyObject {
     var globe: UIImage? { get }
     var splashImage: UIImage? { get }
     var tedrLogo: UIImage? { get }
+    
+    
+    // MARK: Avatar icons
+    
+    var avatar : UIImage? { get }
     
     //MARK: - Fonts
     func getFont(size: CGFloat, weight: UIFont.Weight, italic: Bool) -> UIFont

@@ -261,7 +261,7 @@ extension PurpleTheme {
     
     
     // MARK: - Navigation
-
+    
     var arrowDownBigIcon: UIImage? {
         return UIImage(named: "arrow-down-big")
     }
@@ -349,9 +349,9 @@ extension PurpleTheme {
     var sendIcon: UIImage? {
         return UIImage(named: "send")
     }
-
+    
     // MARK: - Context Menu
-
+    
     var addMemberIcon: UIImage? {
         return UIImage(named: "add-member")
     }
@@ -442,7 +442,7 @@ extension PurpleTheme {
     
     
     // MARK: - Chat List
-
+    
     var alamIcon: UIImage? {
         return UIImage(named: "alam")
     }
@@ -479,10 +479,10 @@ extension PurpleTheme {
     var volume2Icon: UIImage? {
         return UIImage(named: "volume-2")
     }
-
+    
     
     // MARK: - Camera
-
+    
     var _05Icon: UIImage? {
         return UIImage(named: "0.5")
     }
@@ -525,4 +525,15 @@ extension PurpleTheme {
     var tedrLogo: UIImage? {
         return UIImage(named: "tedrLogo")
     }
+    
+    // MARK: Avatar icons
+    
+    var avatar : UIImage? {
+        return UIImage(named: "avatar")
+    }
+    
+    // MARK: Other icons
+    
+    
+
 }
