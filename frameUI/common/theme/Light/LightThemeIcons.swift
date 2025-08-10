@@ -534,7 +534,9 @@ extension LightTheme {
     }
     
     // MARK: Other icons
-    
+    var useAvatarIcon : UIImage? {
+        return UIImage(named: "avatar_use")
+    }
     
 
 }

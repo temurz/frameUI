@@ -532,6 +532,10 @@ extension DarkTheme {
     var avatar : UIImage? {
         return UIImage(named: "avatar")
     }
+    
+    var useAvatarIcon : UIImage? {
+        return UIImage(named: "avatar_use")
+    }
 }
 
 //extension DarkTheme {

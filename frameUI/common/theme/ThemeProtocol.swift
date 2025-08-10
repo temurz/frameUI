@@ -253,6 +253,8 @@ protocol ThemeProtocol: AnyObject {
     
     var avatar : UIImage? { get }
     
+    var useAvatarIcon : UIImage? { get }
+    
     //MARK: - Fonts
     func getFont(size: CGFloat, weight: UIFont.Weight, italic: Bool) -> UIFont
     func onestFont(size: CGFloat, weight: OnestWeight) -> UIFont

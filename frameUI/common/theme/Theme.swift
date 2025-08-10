@@ -757,6 +757,10 @@ extension Theme {
         return _theme.tedrLogo
     }
     
+    var useAvatarIcon : UIImage? {
+        return _theme.useAvatarIcon
+    }
+    
     //MARK: - Fonts
     func getFont(size: CGFloat, weight: UIFont.Weight, italic: Bool = false) -> UIFont {
         return _theme.getFont(size: size, weight: weight, italic: italic)

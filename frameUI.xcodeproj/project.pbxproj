@@ -13,6 +13,14 @@
 		3D16473B2E200255004DE7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1647392E200255004DE7B7 /* LaunchScreen.storyboard */; };
 		3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */; };
 		3D1E3FB52E28FC9A00F02EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */; };
+		3DEED5B62E49197600015C72 /* SettingsMembersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B02E49197600015C72 /* SettingsMembersPresenter.swift */; };
+		3DEED5B72E49197600015C72 /* SettingsMembersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B12E49197600015C72 /* SettingsMembersRouter.swift */; };
+		3DEED5B82E49197600015C72 /* SettingsMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B22E49197600015C72 /* SettingsMembersViewController.swift */; };
+		3DEED5B92E49197600015C72 /* SettingsMembersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B32E49197600015C72 /* SettingsMembersProtocols.swift */; };
+		3DEED5BA2E49197600015C72 /* SettingsMembersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B42E49197600015C72 /* SettingsMembersInteractor.swift */; };
+		3DEED5BB2E49197600015C72 /* SettingsMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B52E49197600015C72 /* SettingsMembersView.swift */; };
+		3DEED5BD2E491AA200015C72 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */; };
+		3DEED5D12E4939BA00015C72 /* MultiActionAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D02E4939BA00015C72 /* MultiActionAlertViewController.swift */; };
 		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
 		3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */; };
 		3DF433AC2E3A41A00005CAEF /* SettingsAdminRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */; };
@@ -263,6 +271,14 @@
 		3D16473C2E200255004DE7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1E3FB22E28FC4B00F02EB5 /* ThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChooserViewController.swift; sourceTree = "<group>"; };
 		3D1E3FB42E28FC9A00F02EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DEED5B02E49197600015C72 /* SettingsMembersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersPresenter.swift; sourceTree = "<group>"; };
+		3DEED5B12E49197600015C72 /* SettingsMembersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersRouter.swift; sourceTree = "<group>"; };
+		3DEED5B22E49197600015C72 /* SettingsMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersViewController.swift; sourceTree = "<group>"; };
+		3DEED5B32E49197600015C72 /* SettingsMembersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersProtocols.swift; sourceTree = "<group>"; };
+		3DEED5B42E49197600015C72 /* SettingsMembersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersInteractor.swift; sourceTree = "<group>"; };
+		3DEED5B52E49197600015C72 /* SettingsMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersView.swift; sourceTree = "<group>"; };
+		3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		3DEED5D02E4939BA00015C72 /* MultiActionAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiActionAlertViewController.swift; sourceTree = "<group>"; };
 		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
 		3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminPresenter.swift; sourceTree = "<group>"; };
 		3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminRouter.swift; sourceTree = "<group>"; };
@@ -553,6 +569,60 @@
 			path = frameUI;
 			sourceTree = "<group>";
 		};
+		3DEED5AF2E49193900015C72 /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5C22E491FDA00015C72 /* interactor */,
+				3DEED5BE2E491F8900015C72 /* presenter */,
+				3DEED5C12E491FC600015C72 /* protocols */,
+				3DEED5BF2E491F9500015C72 /* router */,
+				3DEED5C02E491FAA00015C72 /* view */,
+			);
+			path = Members;
+			sourceTree = "<group>";
+		};
+		3DEED5BE2E491F8900015C72 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5B02E49197600015C72 /* SettingsMembersPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3DEED5BF2E491F9500015C72 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5B12E49197600015C72 /* SettingsMembersRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3DEED5C02E491FAA00015C72 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5B22E49197600015C72 /* SettingsMembersViewController.swift */,
+				3DEED5B52E49197600015C72 /* SettingsMembersView.swift */,
+				3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3DEED5C12E491FC600015C72 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5B32E49197600015C72 /* SettingsMembersProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DEED5C22E491FDA00015C72 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5B42E49197600015C72 /* SettingsMembersInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
 		3DF433A42E3A41760005CAEF /* SettingsAdmin */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +836,7 @@
 			isa = PBXGroup;
 			children = (
 				B8C282162E2FAC2A00DE8C86 /* AlertViewController.swift */,
+				3DEED5D02E4939BA00015C72 /* MultiActionAlertViewController.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -2151,6 +2222,7 @@
 				B8DBEDDB2E37EB85008E963F /* welcome */,
 				3DF433A42E3A41760005CAEF /* SettingsAdmin */,
 				3DF433B72E40C06E0005CAEF /* Invite */,
+				3DEED5AF2E49193900015C72 /* Members */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -2269,6 +2341,7 @@
 				B8C2822E2E2FAC4200DE8C86 /* BackwardDetectingTextField.swift in Sources */,
 				B8C2822F2E2FAC4200DE8C86 /* TemplateController.swift in Sources */,
 				B8DBEDDD2E37EB85008E963F /* CurrencySelectionController.swift in Sources */,
+				3DEED5B72E49197600015C72 /* SettingsMembersRouter.swift in Sources */,
 				B8DBEDDE2E37EB85008E963F /* CreateAccountPresenter.swift in Sources */,
 				B8DBEDDF2E37EB85008E963F /* ProfileMediaRow.swift in Sources */,
 				B8DBEDE02E37EB85008E963F /* RadioOptionRowView.swift in Sources */,
@@ -2277,6 +2350,7 @@
 				B8DBEDE32E37EB85008E963F /* ChatListCell.swift in Sources */,
 				B8DBEDE42E37EB85008E963F /* ProfileLinkItemCell.swift in Sources */,
 				B8DBEDE52E37EB85008E963F /* ChatNavigationView.swift in Sources */,
+				3DEED5B82E49197600015C72 /* SettingsMembersViewController.swift in Sources */,
 				B8DBEDE62E37EB85008E963F /* SplashRouter.swift in Sources */,
 				B8DBEDE72E37EB85008E963F /* SplashInteractor.swift in Sources */,
 				B8DBEDE82E37EB85008E963F /* ChatMessageInputPanelView.swift in Sources */,
@@ -2338,10 +2412,12 @@
 				B8DBEE1D2E37EB85008E963F /* ChatMessageTransactionView.swift in Sources */,
 				B8DBEE1E2E37EB85008E963F /* Section.swift in Sources */,
 				B8DBEE1F2E37EB85008E963F /* SplashProtocols.swift in Sources */,
+				3DEED5BB2E49197600015C72 /* SettingsMembersView.swift in Sources */,
 				B8DBEE202E37EB85008E963F /* ProfileMusicPageCell.swift in Sources */,
 				B8DBEE212E37EB85008E963F /* WalletSendController.swift in Sources */,
 				B8DBEE222E37EB85008E963F /* WalletHomeBalanceView.swift in Sources */,
 				B8DBEE232E37EB85008E963F /* WalletReceiveRouter.swift in Sources */,
+				3DEED5BA2E49197600015C72 /* SettingsMembersInteractor.swift in Sources */,
 				B8DBEE242E37EB85008E963F /* OtpEmailInteractor.swift in Sources */,
 				B8DBEE252E37EB85008E963F /* WalletSearchController.swift in Sources */,
 				B8DBEE262E37EB85008E963F /* ContactCell.swift in Sources */,
@@ -2384,6 +2460,7 @@
 				B8DBEE4A2E37EB85008E963F /* ChatContentViewFactory.swift in Sources */,
 				B8DBEE4B2E37EB85008E963F /* RegistrationTypePresenter.swift in Sources */,
 				B8DBEE4C2E37EB85008E963F /* ProfileFilesPageCell.swift in Sources */,
+				3DEED5B62E49197600015C72 /* SettingsMembersPresenter.swift in Sources */,
 				B8DBEE4D2E37EB85008E963F /* RegistrationTypeView.swift in Sources */,
 				B8DBEE4E2E37EB85008E963F /* OtpEmailEntity.swift in Sources */,
 				B8DBEE4F2E37EB85008E963F /* ChatListProtocols.swift in Sources */,
@@ -2399,6 +2476,7 @@
 				B8DBEE572E37EB85008E963F /* ThemeChooserView.swift in Sources */,
 				B8DBEE582E37EB85008E963F /* NetworkType.swift in Sources */,
 				B8DBEE592E37EB85008E963F /* WalletHomeProtocols.swift in Sources */,
+				3DEED5D12E4939BA00015C72 /* MultiActionAlertViewController.swift in Sources */,
 				B8DBEE5A2E37EB85008E963F /* ChatInputPanelView.swift in Sources */,
 				B8DBEE5B2E37EB85008E963F /* ProfileMusicItemCell.swift in Sources */,
 				3DF433BF2E40C0920005CAEF /* InviteRouter.swift in Sources */,
@@ -2427,6 +2505,7 @@
 				B8DBEE702E37EB85008E963F /* WalletSendPresenter.swift in Sources */,
 				B8DBEE712E37EB85008E963F /* ChatInputPanelActionButton.swift in Sources */,
 				B8DBEE722E37EB85008E963F /* RegistrationTypeRouter.swift in Sources */,
+				3DEED5BD2E491AA200015C72 /* MemberTableViewCell.swift in Sources */,
 				B8DBEE732E37EB85008E963F /* WalletReceivePresenter.swift in Sources */,
 				B8DBEE742E37EB85008E963F /* WalletHomeTableHeaderView.swift in Sources */,
 				B8DBEE752E37EB85008E963F /* WalletHomePresenter.swift in Sources */,
@@ -2456,6 +2535,7 @@
 				B8DBEE8C2E37EB85008E963F /* ProfileContactView.swift in Sources */,
 				B8DBEE8D2E37EB85008E963F /* ChatMessageRow.swift in Sources */,
 				B8DBEE8E2E37EB85008E963F /* KeypadView.swift in Sources */,
+				3DEED5B92E49197600015C72 /* SettingsMembersProtocols.swift in Sources */,
 				B8C282302E2FAC4200DE8C86 /* ReusableBottomSheetView.swift in Sources */,
 				B8C282312E2FAC4200DE8C86 /* TemplateView.swift in Sources */,
 				B8C282322E2FAC4200DE8C86 /* TemplateTextField.swift in Sources */,
