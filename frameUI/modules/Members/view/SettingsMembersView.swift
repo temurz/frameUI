@@ -10,6 +10,7 @@ import UIKit
 
 class SettingsMembersView: TemplateView {
     
+    // MARK: - Properties
     var onBackButtonTapped: (() -> Void)?
     var onAddMembersTapped: (() -> Void)?
     
@@ -21,6 +22,7 @@ class SettingsMembersView: TemplateView {
     private var admins: [(name: String, status: String, role: String?)] = []
     private var members: [(name: String, status: String, role: String?)] = []
     
+    // MARK: - Initialization
     override func initialize() {
         self.theme = self.theme ?? Theme()
         super.initialize()
@@ -29,6 +31,7 @@ class SettingsMembersView: TemplateView {
         updateTheme()
     }
     
+    // MARK: - Layout
     override func updateSubviewsFrame(_ size: CGSize) {
         super.updateSubviewsFrame(size)
         
@@ -41,6 +44,7 @@ class SettingsMembersView: TemplateView {
         tableView.frame = CGRect(x: 0, y: tableY, width: size.width, height: size.height - tableY)
     }
     
+    // MARK: - Theming
     override func updateTheme() {
         super.updateTheme()
         
@@ -53,6 +57,7 @@ class SettingsMembersView: TemplateView {
         backButton.tintColor = theme?.contentWhite
     }
     
+    // MARK: - Setup
     private func setupData() {
         titleLabel.text = "4 Members"
         admins = [
@@ -83,6 +88,7 @@ class SettingsMembersView: TemplateView {
         tableView.addGestureRecognizer(longPressGesture)
     }
     
+    // MARK: - Actions
     @objc private func handleBackButton() {
         onBackButtonTapped?()
     }
@@ -92,44 +98,70 @@ class SettingsMembersView: TemplateView {
         
         let location = gesture.location(in: tableView)
         if let indexPath = tableView.indexPathForRow(at: location) {
-            if indexPath.section == 1 {
-                let admin = admins[indexPath.row]
-                parentViewController?.showMultiActionAlert(
-                    title: "What do you want to do with \(admin.name)?",
-                    message: "",
-                    actions: [
-                        AlertAction(title: "Promote to admin", isCancel: false) {
-                            print("\(admin.name) is now admin")
-                        },
-                        AlertAction(title: "Block", isCancel: false) {
-                            print("Blocked \(admin.name)")
-                        },
-                        AlertAction(title: "Delete", isCancel: false) {
-                        },
-                        AlertAction(title: "Cancel", isCancel: true, handler: nil)
-                    ]
-                )
-            }
-            else if indexPath.section == 2 {
-                let member = members[indexPath.row]
-                parentViewController?.showMultiActionAlert(
-                    title: "What do you want to do with \(member.name)?",
-                    message: "",
-                    actions: [
-                        AlertAction(title: "Dismiss", isCancel: false) {
-                            print("Dismissed \(member.name)")
-                        },
-                        AlertAction(title: "Delete", isCancel: false) {
-                        },
-                        AlertAction(title: "Cancel", isCancel: true, handler: nil)
-                    ]
-                )
-            }
+            showActionMenu(for: indexPath)
         }
+    }
+    
+    private func showActionMenu(for indexPath: IndexPath) {
+        let person: (name: String, status: String, role: String?)
+        var actions: [AlertAction]
+        
+        if indexPath.section == 1 {
+            person = admins[indexPath.row]
+            actions = [
+                AlertAction(title: "Promote to admin", isCancel: false) {
+                    print("\(person.name) is now admin")
+                },
+                AlertAction(title: "Block", isCancel: false) {
+                    print("Blocked \(person.name)")
+                },
+                AlertAction(title: "Delete", isCancel: false) {},
+                AlertAction(title: "Cancel", isCancel: true, handler: nil)
+            ]
+        } else {
+            person = members[indexPath.row]
+            actions = [
+                AlertAction(title: "Dismiss", isCancel: false) {
+                    print("Dismissed \(person.name)")
+                },
+                AlertAction(title: "Delete", isCancel: false) {},
+                AlertAction(title: "Cancel", isCancel: true, handler: nil)
+            ]
+        }
+        
+        parentViewController?.showMultiActionAlert(
+            title: "What do you want to do with \(person.name)?",
+            message: "",
+            actions: actions
+        )
+    }
+    
+    // MARK: - Full Screen Presentation
+    private func presentAddMembersFloating() {
+        guard let parentVC = parentViewController else { return }
+        
+        let modalVC = UIViewController()
+        let modalView = ModalAddMembersView()
+        modalView.theme = self.theme
+        
+        modalVC.view.addSubview(modalView)
+        modalView.frame = modalVC.view.bounds
+        modalView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        
+        modalVC.modalPresentationStyle = .pageSheet
+        
+        if let sheet = modalVC.sheetPresentationController {
+            sheet.selectedDetentIdentifier = .large
+            sheet.prefersGrabberVisible = true
+            sheet.preferredCornerRadius = 24
+        }
+        
+        parentVC.present(modalVC, animated: true)
     }
 
 }
 
+// MARK: - UITableView DataSource & Delegate
 extension SettingsMembersView: UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -203,7 +235,7 @@ extension SettingsMembersView: UITableViewDataSource, UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         
         if indexPath.section == 0 {
-            onAddMembersTapped?()
+            presentAddMembersFloating()
         }
     }
 }

@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func showSomeVC() {
-        let vc = SettingsMembersViewController()
+        let vc = BlockedUserViewController()
         self.navigationController = UINavigationController(rootViewController: vc)
         self.navigationController?.isNavigationBarHidden = true
         self.navigationController?.navigationBar.isHidden = true

@@ -21,6 +21,20 @@
 		3DEED5BB2E49197600015C72 /* SettingsMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5B52E49197600015C72 /* SettingsMembersView.swift */; };
 		3DEED5BD2E491AA200015C72 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */; };
 		3DEED5D12E4939BA00015C72 /* MultiActionAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D02E4939BA00015C72 /* MultiActionAlertViewController.swift */; };
+		3DEED5D32E4F39B900015C72 /* ModalAddMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D22E4F39B900015C72 /* ModalAddMembersView.swift */; };
+		3DEED5DB2E50DFD600015C72 /* EmptyBlockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D52E50DFD600015C72 /* EmptyBlockPresenter.swift */; };
+		3DEED5DC2E50DFD600015C72 /* EmptyBlockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D62E50DFD600015C72 /* EmptyBlockRouter.swift */; };
+		3DEED5DD2E50DFD600015C72 /* EmptyBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D72E50DFD600015C72 /* EmptyBlockViewController.swift */; };
+		3DEED5DE2E50DFD600015C72 /* EmptyBlockProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D82E50DFD600015C72 /* EmptyBlockProtocols.swift */; };
+		3DEED5DF2E50DFD600015C72 /* EmptyBlockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5D92E50DFD600015C72 /* EmptyBlockInteractor.swift */; };
+		3DEED5E02E50DFD600015C72 /* EmptyBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5DA2E50DFD600015C72 /* EmptyBlockView.swift */; };
+		3DEED5E72E50F0B000015C72 /* ModalBlockMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5E62E50F0B000015C72 /* ModalBlockMemberView.swift */; };
+		3DEED5EF2E50F41500015C72 /* BlockedUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5E92E50F41500015C72 /* BlockedUserPresenter.swift */; };
+		3DEED5F02E50F41500015C72 /* BlockedUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EA2E50F41500015C72 /* BlockedUserRouter.swift */; };
+		3DEED5F12E50F41500015C72 /* BlockedUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EB2E50F41500015C72 /* BlockedUserViewController.swift */; };
+		3DEED5F22E50F41500015C72 /* BlockedUserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EC2E50F41500015C72 /* BlockedUserProtocols.swift */; };
+		3DEED5F32E50F41500015C72 /* BlockedUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */; };
+		3DEED5F42E50F41500015C72 /* BlockedUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EE2E50F41500015C72 /* BlockedUserView.swift */; };
 		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
 		3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */; };
 		3DF433AC2E3A41A00005CAEF /* SettingsAdminRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */; };
@@ -279,6 +293,20 @@
 		3DEED5B52E49197600015C72 /* SettingsMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMembersView.swift; sourceTree = "<group>"; };
 		3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
 		3DEED5D02E4939BA00015C72 /* MultiActionAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiActionAlertViewController.swift; sourceTree = "<group>"; };
+		3DEED5D22E4F39B900015C72 /* ModalAddMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddMembersView.swift; sourceTree = "<group>"; };
+		3DEED5D52E50DFD600015C72 /* EmptyBlockPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockPresenter.swift; sourceTree = "<group>"; };
+		3DEED5D62E50DFD600015C72 /* EmptyBlockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockRouter.swift; sourceTree = "<group>"; };
+		3DEED5D72E50DFD600015C72 /* EmptyBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockViewController.swift; sourceTree = "<group>"; };
+		3DEED5D82E50DFD600015C72 /* EmptyBlockProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockProtocols.swift; sourceTree = "<group>"; };
+		3DEED5D92E50DFD600015C72 /* EmptyBlockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockInteractor.swift; sourceTree = "<group>"; };
+		3DEED5DA2E50DFD600015C72 /* EmptyBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBlockView.swift; sourceTree = "<group>"; };
+		3DEED5E62E50F0B000015C72 /* ModalBlockMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalBlockMemberView.swift; sourceTree = "<group>"; };
+		3DEED5E92E50F41500015C72 /* BlockedUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserPresenter.swift; sourceTree = "<group>"; };
+		3DEED5EA2E50F41500015C72 /* BlockedUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserRouter.swift; sourceTree = "<group>"; };
+		3DEED5EB2E50F41500015C72 /* BlockedUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserViewController.swift; sourceTree = "<group>"; };
+		3DEED5EC2E50F41500015C72 /* BlockedUserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserProtocols.swift; sourceTree = "<group>"; };
+		3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserInteractor.swift; sourceTree = "<group>"; };
+		3DEED5EE2E50F41500015C72 /* BlockedUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserView.swift; sourceTree = "<group>"; };
 		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
 		3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminPresenter.swift; sourceTree = "<group>"; };
 		3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminRouter.swift; sourceTree = "<group>"; };
@@ -603,6 +631,7 @@
 				3DEED5B22E49197600015C72 /* SettingsMembersViewController.swift */,
 				3DEED5B52E49197600015C72 /* SettingsMembersView.swift */,
 				3DEED5BC2E491AA200015C72 /* MemberTableViewCell.swift */,
+				3DEED5D22E4F39B900015C72 /* ModalAddMembersView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -619,6 +648,113 @@
 			isa = PBXGroup;
 			children = (
 				3DEED5B42E49197600015C72 /* SettingsMembersInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3DEED5D42E50DFA500015C72 /* EmptyBlock */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5E12E50DFE700015C72 /* presenter */,
+				3DEED5E22E50DFF100015C72 /* router */,
+				3DEED5E32E50DFFA00015C72 /* view */,
+				3DEED5E42E50E00200015C72 /* protocols */,
+				3DEED5E52E50E00900015C72 /* interactor */,
+			);
+			path = EmptyBlock;
+			sourceTree = "<group>";
+		};
+		3DEED5E12E50DFE700015C72 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5D52E50DFD600015C72 /* EmptyBlockPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3DEED5E22E50DFF100015C72 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5D62E50DFD600015C72 /* EmptyBlockRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3DEED5E32E50DFFA00015C72 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5D72E50DFD600015C72 /* EmptyBlockViewController.swift */,
+				3DEED5DA2E50DFD600015C72 /* EmptyBlockView.swift */,
+				3DEED5E62E50F0B000015C72 /* ModalBlockMemberView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3DEED5E42E50E00200015C72 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5D82E50DFD600015C72 /* EmptyBlockProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DEED5E52E50E00900015C72 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5D92E50DFD600015C72 /* EmptyBlockInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3DEED5E82E50F3E500015C72 /* BlockedUser */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5F52E50F41B00015C72 /* presenter */,
+				3DEED5F62E50F42100015C72 /* router */,
+				3DEED5F72E50F42E00015C72 /* View */,
+				3DEED5F82E50F43700015C72 /* protocols */,
+				3DEED5F92E50F43E00015C72 /* interactor */,
+			);
+			path = BlockedUser;
+			sourceTree = "<group>";
+		};
+		3DEED5F52E50F41B00015C72 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5E92E50F41500015C72 /* BlockedUserPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3DEED5F62E50F42100015C72 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5EA2E50F41500015C72 /* BlockedUserRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3DEED5F72E50F42E00015C72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5EB2E50F41500015C72 /* BlockedUserViewController.swift */,
+				3DEED5EE2E50F41500015C72 /* BlockedUserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DEED5F82E50F43700015C72 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5EC2E50F41500015C72 /* BlockedUserProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DEED5F92E50F43E00015C72 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -2223,6 +2359,8 @@
 				3DF433A42E3A41760005CAEF /* SettingsAdmin */,
 				3DF433B72E40C06E0005CAEF /* Invite */,
 				3DEED5AF2E49193900015C72 /* Members */,
+				3DEED5D42E50DFA500015C72 /* EmptyBlock */,
+				3DEED5E82E50F3E500015C72 /* BlockedUser */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -2385,13 +2523,16 @@
 				B8DBEE042E37EB85008E963F /* ChooseThemeInteractor.swift in Sources */,
 				B8DBEE052E37EB85008E963F /* FloatingTabBarView.swift in Sources */,
 				B8DBEE062E37EB85008E963F /* AuthTextField.swift in Sources */,
+				3DEED5F42E50F41500015C72 /* BlockedUserView.swift in Sources */,
 				B8DBEE072E37EB85008E963F /* MainTabBarController.swift in Sources */,
 				B8DBEE082E37EB85008E963F /* PinCodeController.swift in Sources */,
 				B8DBEE092E37EB85008E963F /* ContactSection.swift in Sources */,
 				B8DBEE0A2E37EB85008E963F /* ProfilePageControlView.swift in Sources */,
 				B8DBEE0B2E37EB85008E963F /* ProfileMediaTypePicker.swift in Sources */,
 				B8DBEE0C2E37EB85008E963F /* SplashEntity.swift in Sources */,
+				3DEED5DF2E50DFD600015C72 /* EmptyBlockInteractor.swift in Sources */,
 				B8DBEE0D2E37EB85008E963F /* AuthViewController.swift in Sources */,
+				3DEED5F12E50F41500015C72 /* BlockedUserViewController.swift in Sources */,
 				B8DBEE0E2E37EB85008E963F /* OtpEmailProtocols.swift in Sources */,
 				B8DBEE0F2E37EB85008E963F /* ChatTxInputPanelView.swift in Sources */,
 				B8DBEE102E37EB85008E963F /* PinCodeRouter.swift in Sources */,
@@ -2402,6 +2543,7 @@
 				B8DBEE142E37EB85008E963F /* SplashController.swift in Sources */,
 				B8DBEE152E37EB85008E963F /* WelcomeRouter.swift in Sources */,
 				B8DBEE162E37EB85008E963F /* ProfileMediaPagesCarousel.swift in Sources */,
+				3DEED5DE2E50DFD600015C72 /* EmptyBlockProtocols.swift in Sources */,
 				B8DBEE172E37EB85008E963F /* WelcomePresenter.swift in Sources */,
 				3DF433AF2E3A41A00005CAEF /* SettingsAdminInteractor.swift in Sources */,
 				B8DBEE182E37EB85008E963F /* QRScannerPresenter.swift in Sources */,
@@ -2420,6 +2562,7 @@
 				3DEED5BA2E49197600015C72 /* SettingsMembersInteractor.swift in Sources */,
 				B8DBEE242E37EB85008E963F /* OtpEmailInteractor.swift in Sources */,
 				B8DBEE252E37EB85008E963F /* WalletSearchController.swift in Sources */,
+				3DEED5DB2E50DFD600015C72 /* EmptyBlockPresenter.swift in Sources */,
 				B8DBEE262E37EB85008E963F /* ContactCell.swift in Sources */,
 				B8DBEE272E37EB85008E963F /* ChatListPresenter.swift in Sources */,
 				B8DBEE282E37EB85008E963F /* WalletRow.swift in Sources */,
@@ -2438,6 +2581,7 @@
 				B8DBEE352E37EB85008E963F /* CircleRadioButton.swift in Sources */,
 				B8DBEE362E37EB85008E963F /* WalletSearchInteractor.swift in Sources */,
 				B8DBEE372E37EB85008E963F /* RegistrationTypeProtocols.swift in Sources */,
+				3DEED5DD2E50DFD600015C72 /* EmptyBlockViewController.swift in Sources */,
 				B8DBEE382E37EB85008E963F /* CurrencyFilterChipCell.swift in Sources */,
 				B8DBEE392E37EB85008E963F /* TabBarRouter.swift in Sources */,
 				B8DBEE3A2E37EB85008E963F /* ProfileVoicePageCell.swift in Sources */,
@@ -2469,6 +2613,7 @@
 				B8DBEE522E37EB85008E963F /* ChatDataManager.swift in Sources */,
 				B8DBEE532E37EB85008E963F /* ProfileLinksPageCell.swift in Sources */,
 				3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */,
+				3DEED5F22E50F41500015C72 /* BlockedUserProtocols.swift in Sources */,
 				B8DBEE542E37EB85008E963F /* CreateChatInteractor.swift in Sources */,
 				B8DBEE552E37EB85008E963F /* ProfileDateHeaderView.swift in Sources */,
 				B8DBEE562E37EB85008E963F /* ChooseThemeProtocols.swift in Sources */,
@@ -2489,6 +2634,7 @@
 				B8DBEE612E37EB85008E963F /* AuthView.swift in Sources */,
 				B8DBEE622E37EB85008E963F /* MessageProvider.swift in Sources */,
 				B8DBEE632E37EB85008E963F /* ChatRouter.swift in Sources */,
+				3DEED5D32E4F39B900015C72 /* ModalAddMembersView.swift in Sources */,
 				B8DBEE642E37EB85008E963F /* PinCodePresenter.swift in Sources */,
 				B8DBEE652E37EB85008E963F /* CreateAccountViewController.swift in Sources */,
 				B8DBEE662E37EB85008E963F /* ChatInteractor.swift in Sources */,
@@ -2503,14 +2649,18 @@
 				B8DBEE6E2E37EB85008E963F /* WelcomeInteractor.swift in Sources */,
 				B8DBEE6F2E37EB85008E963F /* CreateAccountView.swift in Sources */,
 				B8DBEE702E37EB85008E963F /* WalletSendPresenter.swift in Sources */,
+				3DEED5DC2E50DFD600015C72 /* EmptyBlockRouter.swift in Sources */,
 				B8DBEE712E37EB85008E963F /* ChatInputPanelActionButton.swift in Sources */,
 				B8DBEE722E37EB85008E963F /* RegistrationTypeRouter.swift in Sources */,
 				3DEED5BD2E491AA200015C72 /* MemberTableViewCell.swift in Sources */,
 				B8DBEE732E37EB85008E963F /* WalletReceivePresenter.swift in Sources */,
 				B8DBEE742E37EB85008E963F /* WalletHomeTableHeaderView.swift in Sources */,
 				B8DBEE752E37EB85008E963F /* WalletHomePresenter.swift in Sources */,
+				3DEED5E72E50F0B000015C72 /* ModalBlockMemberView.swift in Sources */,
 				B8DBEE762E37EB85008E963F /* OtpEmailController.swift in Sources */,
+				3DEED5F32E50F41500015C72 /* BlockedUserInteractor.swift in Sources */,
 				B8DBEE772E37EB85008E963F /* ProfileAvatarView.swift in Sources */,
+				3DEED5E02E50DFD600015C72 /* EmptyBlockView.swift in Sources */,
 				B8DBEE782E37EB85008E963F /* GradientSelectableButton.swift in Sources */,
 				B8DBEE792E37EB85008E963F /* CreateChatNavigationBar.swift in Sources */,
 				B8DBEE7A2E37EB85008E963F /* ProfileVoiceItemCell.swift in Sources */,
@@ -2533,6 +2683,7 @@
 				B8DBEE8A2E37EB85008E963F /* Chat.swift in Sources */,
 				B8DBEE8B2E37EB85008E963F /* ChatListStoryCell.swift in Sources */,
 				B8DBEE8C2E37EB85008E963F /* ProfileContactView.swift in Sources */,
+				3DEED5F02E50F41500015C72 /* BlockedUserRouter.swift in Sources */,
 				B8DBEE8D2E37EB85008E963F /* ChatMessageRow.swift in Sources */,
 				B8DBEE8E2E37EB85008E963F /* KeypadView.swift in Sources */,
 				3DEED5B92E49197600015C72 /* SettingsMembersProtocols.swift in Sources */,
@@ -2551,6 +2702,7 @@
 				B8C281FD2E2FAB0C00DE8C86 /* LightThemeColors.swift in Sources */,
 				B8C282122E2FABED00DE8C86 /* Preferences.swift in Sources */,
 				B8C282012E2FAB1900DE8C86 /* PurpleThemeIcons.swift in Sources */,
+				3DEED5EF2E50F41500015C72 /* BlockedUserPresenter.swift in Sources */,
 				B8C282022E2FAB1900DE8C86 /* PurpleThemeColors.swift in Sources */,
 				B8C2820B2E2FAB9500DE8C86 /* UIImageExtensions.swift in Sources */,
 				B8C282172E2FAC2A00DE8C86 /* AlertViewController.swift in Sources */,

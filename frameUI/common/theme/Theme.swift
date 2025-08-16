@@ -235,6 +235,10 @@ extension Theme {
     var chatBubbleIncomingColor: UIColor {
         return _theme.chatBubbleIncomingColor
     }
+    
+    var modalBlueDefaultBg : UIColor {
+        return _theme.modalBlueDefaultBg
+    }
 }
 
 // MARK: - Images

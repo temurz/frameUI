@@ -188,4 +188,8 @@ extension PurpleTheme {
     var primaryBlueDefaultBg : UIColor {
         return UIColor(hex: "#3B72F2")
     }
+    
+    var modalBlueDefaultBg : UIColor {
+        return UIColor(hex: "#231A4C")
+    }
 }
