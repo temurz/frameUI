@@ -235,6 +235,10 @@ extension Theme {
     var chatBubbleIncomingColor: UIColor {
         return _theme.chatBubbleIncomingColor
     }
+    
+    var modalBlueDefaultBg : UIColor {
+        return _theme.modalBlueDefaultBg
+    }
 }
 
 // MARK: - Images
@@ -755,6 +759,10 @@ extension Theme {
     }
     var tedrLogo: UIImage? {
         return _theme.tedrLogo
+    }
+    
+    var useAvatarIcon : UIImage? {
+        return _theme.useAvatarIcon
     }
     
     //MARK: - Fonts

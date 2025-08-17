@@ -40,82 +40,96 @@ class InviteView: TemplateView {
         super.updateSubviewsFrame(size)
 
         let horizontalPadding: CGFloat = 16
-        let modalWidth = size.width - (horizontalPadding * 2)
-        
-        var requiredHeight: CGFloat = 0
-        let contentWidth = modalWidth - (horizontalPadding * 2)
+        let modalWidth = size.width - horizontalPadding * 2
+        let contentWidth = modalWidth - horizontalPadding * 2
 
-        requiredHeight += 32
-        requiredHeight += 92
-        requiredHeight += 24
-
+        // Calculate dynamic heights
         let titleHeight = titleLabel.sizeThatFits(CGSize(width: contentWidth, height: .greatestFiniteMagnitude)).height
-        requiredHeight += titleHeight
-        requiredHeight += 16
-
         let descriptionHeight = descriptionLabel.sizeThatFits(CGSize(width: contentWidth, height: .greatestFiniteMagnitude)).height
-        requiredHeight += descriptionHeight
-        requiredHeight += 16
 
-        requiredHeight += 56
-        requiredHeight += 16
-        requiredHeight += 50
-        requiredHeight += 16
-        requiredHeight += 50
-        requiredHeight += 32
+        // Spacing and fixed sizes
+        let topSpacing: CGFloat = 32
+        let iconSize: CGFloat = 92
+        let iconBottomSpacing: CGFloat = 24
+        let titleBottomSpacing: CGFloat = 16
+        let descriptionBottomSpacing: CGFloat = 16
+        let linkViewHeight: CGFloat = 56
+        let linkBottomSpacing: CGFloat = 16
+        let actionButtonHeight: CGFloat = 50
+        let actionBottomSpacing: CGFloat = 16
+        let cancelButtonHeight: CGFloat = 50
+        let bottomSpacing: CGFloat = 32
 
-        let modalHeight = requiredHeight
-        let modalY = size.height - modalHeight - 32
-        
-        modalContainerView.frame = CGRect(x: horizontalPadding, y: modalY, width: modalWidth, height: modalHeight)
+        // Sum all heights and spacings
+        let heightComponents: [CGFloat] = [
+            topSpacing,
+            iconSize,
+            iconBottomSpacing,
+            titleHeight,
+            titleBottomSpacing,
+            descriptionHeight,
+            descriptionBottomSpacing,
+            linkViewHeight,
+            linkBottomSpacing,
+            actionButtonHeight,
+            actionBottomSpacing,
+            cancelButtonHeight,
+            bottomSpacing
+        ]
 
+        let requiredHeight = heightComponents.reduce(0, +)
 
-        var currentY: CGFloat = 32
+        // Position modal at bottom with 32pt margin
+        let modalY = size.height - requiredHeight - 32
+        modalContainerView.frame = CGRect(x: horizontalPadding, y: modalY, width: modalWidth, height: requiredHeight)
 
-        linkIconContainerView.frame = CGRect(x: (modalWidth - 92) / 2, y: currentY, width: 92, height: 92)
+        // Layout subviews inside modal
+        var currentY: CGFloat = topSpacing
+
+        linkIconContainerView.frame = CGRect(x: (modalWidth - iconSize) / 2, y: currentY, width: iconSize, height: iconSize)
         linkIconImageView.frame = linkIconContainerView.bounds.insetBy(dx: 18, dy: 18)
-        currentY += linkIconContainerView.frame.height + 24
+        currentY += iconSize + iconBottomSpacing
 
         titleLabel.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: titleHeight)
-        currentY += titleLabel.frame.height + 16
+        currentY += titleHeight + titleBottomSpacing
 
         descriptionLabel.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: descriptionHeight)
-        currentY += descriptionLabel.frame.height + 16
+        currentY += descriptionHeight + descriptionBottomSpacing
 
-        linkDisplayView.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: 56)
-        linkTextLabel.frame = CGRect(x: 16, y: 0, width: contentWidth - 32 - 24, height: 56)
-        copyIconImageView.frame = CGRect(x: linkDisplayView.bounds.width - 16 - 24, y: (56 - 24) / 2, width: 24, height: 24)
-        currentY += linkDisplayView.frame.height + 16
+        linkDisplayView.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: linkViewHeight)
+        linkTextLabel.frame = CGRect(x: 16, y: 0, width: contentWidth - 32 - 24, height: linkViewHeight)
+        copyIconImageView.frame = CGRect(x: linkDisplayView.bounds.width - 16 - 24, y: (linkViewHeight - 24) / 2, width: 24, height: 24)
+        currentY += linkViewHeight + linkBottomSpacing
 
-        actionButton.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: 50)
+        actionButton.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: actionButtonHeight)
         gradientLayer.frame = actionButton.bounds
-        currentY += actionButton.frame.height + 16
-        
-        cancelButton.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: 50)
+        currentY += actionButtonHeight + actionBottomSpacing
+
+        cancelButton.frame = CGRect(x: horizontalPadding, y: currentY, width: contentWidth, height: cancelButtonHeight)
     }
 
     // MARK: - Theme & Style Setup
     override func updateTheme() {
         super.updateTheme()
-        
+
         self.backgroundColor = purpleTheme.backgroundColor.withAlphaComponent(0.6)
         modalContainerView.backgroundColor = purpleTheme.bgWhiteTransparent10
         linkIconContainerView.backgroundColor = purpleTheme.contentPurple
         linkIconImageView.image = purpleTheme.linkIcon
-        
+
         titleLabel.font = purpleTheme.onestFont(size: 18, weight: .bold)
         titleLabel.textColor = purpleTheme.contentWhite
-        
+
         descriptionLabel.font = purpleTheme.onestFont(size: 16, weight: .regular)
         descriptionLabel.textColor = purpleTheme.contentWhite
-        
+
         linkDisplayView.backgroundColor = purpleTheme.bgBlackTransparent20
         linkTextLabel.font = purpleTheme.onestFont(size: 16, weight: .regular)
         linkTextLabel.textColor = purpleTheme.contentWhite
-        
+
         copyIconImageView.image = purpleTheme.copyIcon
         copyIconImageView.tintColor = purpleTheme.contentWhite
-        
+
         actionButton.titleLabel?.font = purpleTheme.onestFont(size: 16, weight: .bold)
         actionButton.setTitleColor(purpleTheme.contentWhite, for: .normal)
         gradientLayer.colors = [purpleTheme.pinkGradientUpColor.cgColor, purpleTheme.pinkGradientDownColor.cgColor]
@@ -132,39 +146,40 @@ class InviteView: TemplateView {
         linkDisplayView.addSubview(linkTextLabel)
         linkDisplayView.addSubview(copyIconImageView)
 
-
         modalContainerView.layer.cornerRadius = 40
         linkIconContainerView.layer.cornerRadius = 46
-        
+        linkIconContainerView.clipsToBounds = true
+
         titleLabel.text = "Invite link"
         titleLabel.textAlignment = .center
-        
+
         descriptionLabel.text = "Everyone who is registered in the Tedr app will receive an invitation to join this group."
         descriptionLabel.textAlignment = .center
         descriptionLabel.numberOfLines = 0
-        
+
         linkDisplayView.layer.cornerRadius = 16
         linkTextLabel.text = "Tedr.me/719ATempLaTe"
         copyIconImageView.contentMode = .scaleAspectFit
-        
+
         actionButton.setTitle("Button", for: .normal)
         actionButton.layer.cornerRadius = 25
         actionButton.layer.masksToBounds = true
         actionButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        
+
         gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
         actionButton.layer.insertSublayer(gradientLayer, at: 0)
-        
+
         cancelButton.setTitle("Cancel", for: .normal)
         cancelButton.backgroundColor = .clear
         cancelButton.addTarget(self, action: #selector(cancelTapped), for: .touchUpInside)
     }
-    
+
+    // MARK: - Actions
     @objc private func buttonTapped() {
         onButtonTapped?()
     }
-    
+
     @objc private func cancelTapped() {
         onCancelTapped?()
     }

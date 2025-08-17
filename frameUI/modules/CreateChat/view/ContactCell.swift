@@ -8,10 +8,10 @@
 import UIKit
 
 class ContactCell: UITableViewCell {
-    private var avatarImageView: UIImageView? = UIImageView()
+    var avatarImageView: UIImageView? = UIImageView()
     private var titleLabel: UILabel? = UILabel()
     private var usernameLabel: UILabel? = UILabel()
-    private var checkboxButton: UIButton? = UIButton()
+    var checkboxButton: UIButton? = UIButton()
     
     var isCheckboxSelected = false
     var didSelectCheckMark: (() -> Void)?

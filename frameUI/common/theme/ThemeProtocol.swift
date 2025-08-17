@@ -66,6 +66,8 @@ protocol ThemeProtocol: AnyObject {
     var chatBubbleOutcomingColor: UIColor { get }
     var chatBubbleIncomingColor: UIColor { get }
     var primaryBlueDefaultBg: UIColor { get }
+    var modalBlueDefaultBg : UIColor { get }
+    
     
     // MARK: - Images
     
@@ -252,6 +254,8 @@ protocol ThemeProtocol: AnyObject {
     // MARK: Avatar icons
     
     var avatar : UIImage? { get }
+    
+    var useAvatarIcon : UIImage? { get }
     
     //MARK: - Fonts
     func getFont(size: CGFloat, weight: UIFont.Weight, italic: Bool) -> UIFont
