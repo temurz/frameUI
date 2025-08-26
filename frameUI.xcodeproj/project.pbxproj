@@ -35,6 +35,14 @@
 		3DEED5F22E50F41500015C72 /* BlockedUserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EC2E50F41500015C72 /* BlockedUserProtocols.swift */; };
 		3DEED5F32E50F41500015C72 /* BlockedUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */; };
 		3DEED5F42E50F41500015C72 /* BlockedUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5EE2E50F41500015C72 /* BlockedUserView.swift */; };
+		3DEED6012E5B8B3B00015C72 /* SettingsAdministratorsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5FB2E5B8B3B00015C72 /* SettingsAdministratorsPresenter.swift */; };
+		3DEED6022E5B8B3B00015C72 /* SettingsAdministratorsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5FC2E5B8B3B00015C72 /* SettingsAdministratorsRouter.swift */; };
+		3DEED6032E5B8B3B00015C72 /* SettingsAdministratorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5FD2E5B8B3B00015C72 /* SettingsAdministratorsViewController.swift */; };
+		3DEED6042E5B8B3B00015C72 /* SettingsAdministratorsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5FE2E5B8B3B00015C72 /* SettingsAdministratorsProtocols.swift */; };
+		3DEED6052E5B8B3B00015C72 /* SettingsAdministratorsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED5FF2E5B8B3B00015C72 /* SettingsAdministratorsInteractor.swift */; };
+		3DEED6062E5B8B3B00015C72 /* SettingsAdministratorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED6002E5B8B3B00015C72 /* SettingsAdministratorsView.swift */; };
+		3DEED60D2E5B9C6600015C72 /* ContactAdminCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED60C2E5B9C6600015C72 /* ContactAdminCell.swift */; };
+		3DEED60F2E5E15EC00015C72 /* ModalAddAdminsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED60E2E5E15EC00015C72 /* ModalAddAdminsView.swift */; };
 		3DF433A22E2FBFBC0005CAEF /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */; };
 		3DF433AB2E3A41A00005CAEF /* SettingsAdminPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */; };
 		3DF433AC2E3A41A00005CAEF /* SettingsAdminRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */; };
@@ -307,6 +315,14 @@
 		3DEED5EC2E50F41500015C72 /* BlockedUserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserProtocols.swift; sourceTree = "<group>"; };
 		3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserInteractor.swift; sourceTree = "<group>"; };
 		3DEED5EE2E50F41500015C72 /* BlockedUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUserView.swift; sourceTree = "<group>"; };
+		3DEED5FB2E5B8B3B00015C72 /* SettingsAdministratorsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsPresenter.swift; sourceTree = "<group>"; };
+		3DEED5FC2E5B8B3B00015C72 /* SettingsAdministratorsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsRouter.swift; sourceTree = "<group>"; };
+		3DEED5FD2E5B8B3B00015C72 /* SettingsAdministratorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsViewController.swift; sourceTree = "<group>"; };
+		3DEED5FE2E5B8B3B00015C72 /* SettingsAdministratorsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsProtocols.swift; sourceTree = "<group>"; };
+		3DEED5FF2E5B8B3B00015C72 /* SettingsAdministratorsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsInteractor.swift; sourceTree = "<group>"; };
+		3DEED6002E5B8B3B00015C72 /* SettingsAdministratorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdministratorsView.swift; sourceTree = "<group>"; };
+		3DEED60C2E5B9C6600015C72 /* ContactAdminCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAdminCell.swift; sourceTree = "<group>"; };
+		3DEED60E2E5E15EC00015C72 /* ModalAddAdminsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddAdminsView.swift; sourceTree = "<group>"; };
 		3DF433A12E2FBFBC0005CAEF /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
 		3DF433A52E3A41A00005CAEF /* SettingsAdminPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminPresenter.swift; sourceTree = "<group>"; };
 		3DF433A62E3A41A00005CAEF /* SettingsAdminRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdminRouter.swift; sourceTree = "<group>"; };
@@ -755,6 +771,61 @@
 			isa = PBXGroup;
 			children = (
 				3DEED5ED2E50F41500015C72 /* BlockedUserInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3DEED5FA2E5B89C100015C72 /* SettingsAdministrator */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED6072E5B8B4900015C72 /* presenter */,
+				3DEED6082E5B8B5100015C72 /* router */,
+				3DEED6092E5B8B5900015C72 /* view */,
+				3DEED60A2E5B8B5F00015C72 /* protocols */,
+				3DEED60B2E5B8B6A00015C72 /* interactor */,
+			);
+			path = SettingsAdministrator;
+			sourceTree = "<group>";
+		};
+		3DEED6072E5B8B4900015C72 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5FB2E5B8B3B00015C72 /* SettingsAdministratorsPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3DEED6082E5B8B5100015C72 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5FC2E5B8B3B00015C72 /* SettingsAdministratorsRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3DEED6092E5B8B5900015C72 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5FD2E5B8B3B00015C72 /* SettingsAdministratorsViewController.swift */,
+				3DEED6002E5B8B3B00015C72 /* SettingsAdministratorsView.swift */,
+				3DEED60C2E5B9C6600015C72 /* ContactAdminCell.swift */,
+				3DEED60E2E5E15EC00015C72 /* ModalAddAdminsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3DEED60A2E5B8B5F00015C72 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5FE2E5B8B3B00015C72 /* SettingsAdministratorsProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DEED60B2E5B8B6A00015C72 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED5FF2E5B8B3B00015C72 /* SettingsAdministratorsInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -2361,6 +2432,7 @@
 				3DEED5AF2E49193900015C72 /* Members */,
 				3DEED5D42E50DFA500015C72 /* EmptyBlock */,
 				3DEED5E82E50F3E500015C72 /* BlockedUser */,
+				3DEED5FA2E5B89C100015C72 /* SettingsAdministrator */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -2512,6 +2584,7 @@
 				B8DBEDFA2E37EB85008E963F /* WalletAssetRow.swift in Sources */,
 				B8DBEDFB2E37EB85008E963F /* WalletSendNavigationBar.swift in Sources */,
 				B8DBEDFC2E37EB85008E963F /* ChatPresenter.swift in Sources */,
+				3DEED6022E5B8B3B00015C72 /* SettingsAdministratorsRouter.swift in Sources */,
 				B8DBEDFD2E37EB85008E963F /* CreateAccountRouter.swift in Sources */,
 				B8DBEDFE2E37EB85008E963F /* FavoritesVC.swift in Sources */,
 				B8DBEDFF2E37EB85008E963F /* PinCodeDotsView.swift in Sources */,
@@ -2533,6 +2606,7 @@
 				3DEED5DF2E50DFD600015C72 /* EmptyBlockInteractor.swift in Sources */,
 				B8DBEE0D2E37EB85008E963F /* AuthViewController.swift in Sources */,
 				3DEED5F12E50F41500015C72 /* BlockedUserViewController.swift in Sources */,
+				3DEED6042E5B8B3B00015C72 /* SettingsAdministratorsProtocols.swift in Sources */,
 				B8DBEE0E2E37EB85008E963F /* OtpEmailProtocols.swift in Sources */,
 				B8DBEE0F2E37EB85008E963F /* ChatTxInputPanelView.swift in Sources */,
 				B8DBEE102E37EB85008E963F /* PinCodeRouter.swift in Sources */,
@@ -2601,6 +2675,7 @@
 				B8DBEE472E37EB85008E963F /* QRScannerView.swift in Sources */,
 				B8DBEE482E37EB85008E963F /* CurrencySelectionPresenter.swift in Sources */,
 				B8DBEE492E37EB85008E963F /* ProfileNavigationBar.swift in Sources */,
+				3DEED6032E5B8B3B00015C72 /* SettingsAdministratorsViewController.swift in Sources */,
 				B8DBEE4A2E37EB85008E963F /* ChatContentViewFactory.swift in Sources */,
 				B8DBEE4B2E37EB85008E963F /* RegistrationTypePresenter.swift in Sources */,
 				B8DBEE4C2E37EB85008E963F /* ProfileFilesPageCell.swift in Sources */,
@@ -2638,6 +2713,7 @@
 				B8DBEE642E37EB85008E963F /* PinCodePresenter.swift in Sources */,
 				B8DBEE652E37EB85008E963F /* CreateAccountViewController.swift in Sources */,
 				B8DBEE662E37EB85008E963F /* ChatInteractor.swift in Sources */,
+				3DEED60D2E5B9C6600015C72 /* ContactAdminCell.swift in Sources */,
 				B8DBEE672E37EB85008E963F /* WalletSendProtocols.swift in Sources */,
 				B8DBEE682E37EB85008E963F /* CurrencySelectionInteractor.swift in Sources */,
 				B8DBEE692E37EB85008E963F /* ChatListView.swift in Sources */,
@@ -2648,6 +2724,7 @@
 				B8DBEE6D2E37EB85008E963F /* WalletAssetCell.swift in Sources */,
 				B8DBEE6E2E37EB85008E963F /* WelcomeInteractor.swift in Sources */,
 				B8DBEE6F2E37EB85008E963F /* CreateAccountView.swift in Sources */,
+				3DEED6062E5B8B3B00015C72 /* SettingsAdministratorsView.swift in Sources */,
 				B8DBEE702E37EB85008E963F /* WalletSendPresenter.swift in Sources */,
 				3DEED5DC2E50DFD600015C72 /* EmptyBlockRouter.swift in Sources */,
 				B8DBEE712E37EB85008E963F /* ChatInputPanelActionButton.swift in Sources */,
@@ -2677,6 +2754,7 @@
 				B8DBEE842E37EB85008E963F /* WalletHomeController.swift in Sources */,
 				B8DBEE852E37EB85008E963F /* TransactionDetailsView.swift in Sources */,
 				B8DBEE862E37EB85008E963F /* WalletReceiveProtocols.swift in Sources */,
+				3DEED6052E5B8B3B00015C72 /* SettingsAdministratorsInteractor.swift in Sources */,
 				B8DBEE872E37EB85008E963F /* WalletReceiveController.swift in Sources */,
 				B8DBEE882E37EB85008E963F /* WalletSearchPresenter.swift in Sources */,
 				B8DBEE892E37EB85008E963F /* ChatCell.swift in Sources */,
@@ -2720,8 +2798,10 @@
 				B8C281EC2E2FAAE700DE8C86 /* ColorPalette.swift in Sources */,
 				3D1E3FB32E28FC4B00F02EB5 /* ThemeChooserViewController.swift in Sources */,
 				B8C281F72E2FAB0100DE8C86 /* DarkThemeColors.swift in Sources */,
+				3DEED6012E5B8B3B00015C72 /* SettingsAdministratorsPresenter.swift in Sources */,
 				B8C281F82E2FAB0100DE8C86 /* DarkThemeIcons.swift in Sources */,
 				3DF433AD2E3A41A00005CAEF /* SettingsAdminViewController.swift in Sources */,
+				3DEED60F2E5E15EC00015C72 /* ModalAddAdminsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
